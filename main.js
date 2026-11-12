@@ -1,5 +1,5 @@
 import { DiscordSDK, patchUrlMappings } from "@discord/embedded-app-sdk";
-import { COLUMNS, compare, dailyChampion, dayNumber, shareText } from "./game.js";
+import { COLUMNS, compare, dailyChampion, dayNumber, puzzleNumber, resultRows, shareText } from "./game.js";
 import champions from "./champions.json";
 
 const $ = (id) => document.getElementById(id);
@@ -7,12 +7,13 @@ const $ = (id) => document.getElementById(id);
 // Inside Discord the page runs in a sandboxed iframe; outside it (plain browser) we skip the SDK.
 // discordSdk is set only once the player is logged in; Discord's invite/share dialogs require that.
 let discordSdk = null;
+let accessToken = null;
 if (new URLSearchParams(location.search).has("frame_id")) {
   // Requests outside the Activity's origin are blocked, so champion images go through the
   // /ddragon URL mapping set in the Developer Portal.
   patchUrlMappings([{ prefix: "/ddragon", target: "ddragon.leagueoflegends.com" }], { patchSrcAttributes: true });
   loginToDiscord(new DiscordSDK(import.meta.env.VITE_DISCORD_CLIENT_ID))
-    .then((sdk) => { discordSdk = sdk; $("invite").hidden = false; })
+    .then((sdk) => { discordSdk = sdk; $("invite").hidden = false; updateCard(); })
     // The game still works without login; sharing falls back to copy/paste.
     .catch((err) => console.error("Discord login failed", JSON.stringify(err) || String(err)));
 }
@@ -34,7 +35,25 @@ async function loginToDiscord(sdk) {
   if (!res.ok) throw new Error(`token exchange returned ${res.status}`);
   const { access_token } = await res.json();
   await sdk.commands.authenticate({ access_token });
+  accessToken = access_token;
   return sdk;
+}
+
+/** Mirror progress onto the player's live "is playing" card in the channel (best effort). */
+function updateCard() {
+  if (!discordSdk || !discordSdk.channelId) return;
+  const played = saved.guesses.map((id) => byId.get(id)).filter(Boolean);
+  fetch("/api/progress", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      access_token: accessToken,
+      channelId: discordSdk.channelId,
+      puzzle: puzzleNumber(today),
+      rows: resultRows(played, answer),
+      solved: saved.guesses.includes(answer.id),
+    }),
+  }).catch((err) => console.error("Card update failed", String(err)));
 }
 
 $("invite").addEventListener("click", () => {
@@ -135,6 +154,7 @@ $("guess-form").addEventListener("submit", (e) => {
   refreshList();
   if (champ.id === answer.id) { recordWin(); finish(); }
   else $("msg").textContent = `${guesses(saved.guesses.length)} so far.`;
+  updateCard();
 });
 
 saved.guesses.map((id) => byId.get(id)).filter(Boolean).forEach((c) => addRow(c, false));

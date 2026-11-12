@@ -31,11 +31,17 @@ export function compare(guess, answer) {
 const EMOJI = { correct: "🟩", partial: "🟨", wrong: "🟥", higher: "⬆️", lower: "⬇️" };
 const FIRST_DAY = 20768; // 2026-11-11, the day this game launched, is puzzle #1
 
-/** Spoiler-free summary like Wordle's share text: one emoji row per guess, oldest first. */
+/** One spoiler-free emoji row per guess, oldest first. */
+export function resultRows(guesses, answer) {
+  return guesses.map((g) => compare(g, answer).map((r) => EMOJI[r.hint ?? r.result]).join(""));
+}
+
+export const puzzleNumber = (day = dayNumber()) => day - FIRST_DAY + 1;
+
+/** Wordle-style share text. */
 export function shareText(guesses, answer, day = dayNumber()) {
-  const rows = guesses.map((g) => compare(g, answer).map((r) => EMOJI[r.hint ?? r.result]).join(""));
   const n = guesses.length;
-  return `Champion Guess #${day - FIRST_DAY + 1}: ${n} ${n === 1 ? "guess" : "guesses"}\n${rows.join("\n")}`;
+  return `Champion Guess #${puzzleNumber(day)}: ${n} ${n === 1 ? "guess" : "guesses"}\n${resultRows(guesses, answer).join("\n")}`;
 }
 
 /** Local calendar day as a number, so everyone gets a new champion at their midnight. */

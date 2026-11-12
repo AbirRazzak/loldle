@@ -6,12 +6,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node game.test.js"
+    "test": "node game.test.js && node api.test.js"
   },
   "devDependencies": {
     "vite": "^8.3.8"
   },
   "dependencies": {
-    "@discord/embedded-app-sdk": "^2.5.0"
+    "@discord/embedded-app-sdk": "^2.5.0",
+    "@vercel/functions": "^3.11.1"
   }
 }
