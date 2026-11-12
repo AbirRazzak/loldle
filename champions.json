@@ -1,0 +1,3822 @@
+[
+  {
+    "id": "Aatrox",
+    "name": "Aatrox",
+    "title": "the Darkin Blade",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Aatrox.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Jungle"
+    ],
+    "species": [
+      "Darkin"
+    ],
+    "resource": "Blood Well",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Runeterra",
+      "Shurima"
+    ],
+    "releaseYear": 2013
+  },
+  {
+    "id": "Ahri",
+    "name": "Ahri",
+    "title": "the Nine-Tailed Fox",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Ahri.png",
+    "gender": "Female",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Vastaya"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Akali",
+    "name": "Akali",
+    "title": "the Rogue Assassin",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Akali.png",
+    "gender": "Female",
+    "positions": [
+      "Top",
+      "Middle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Energy",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Akshan",
+    "name": "Akshan",
+    "title": "the Rogue Sentinel",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Akshan.png",
+    "gender": "Male",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Shurima"
+    ],
+    "releaseYear": 2021
+  },
+  {
+    "id": "Alistar",
+    "name": "Alistar",
+    "title": "the Minotaur",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Alistar.png",
+    "gender": "Male",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Minotaur"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Ambessa",
+    "name": "Ambessa",
+    "title": "Matriarch of War",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Ambessa.png",
+    "gender": "Female",
+    "positions": [
+      "Top",
+      "Jungle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Energy",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2024
+  },
+  {
+    "id": "Amumu",
+    "name": "Amumu",
+    "title": "the Sad Mummy",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Amumu.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle",
+      "Support"
+    ],
+    "species": [
+      "Yordle",
+      "Undead"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Shurima"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Anivia",
+    "name": "Anivia",
+    "title": "the Cryophoenix",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Anivia.png",
+    "gender": "Female",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Spirit",
+      "God"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Annie",
+    "name": "Annie",
+    "title": "the Dark Child",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Annie.png",
+    "gender": "Female",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Runeterra",
+      "Noxus"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Aphelios",
+    "name": "Aphelios",
+    "title": "the Weapon of the Faithful",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Aphelios.png",
+    "gender": "Male",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Targon"
+    ],
+    "releaseYear": 2019
+  },
+  {
+    "id": "Ashe",
+    "name": "Ashe",
+    "title": "the Frost Archer",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Ashe.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom",
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Iceborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "AurelionSol",
+    "name": "Aurelion Sol",
+    "title": "The Star Forger",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/AurelionSol.png",
+    "gender": "Male",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Celestial",
+      "Dragon"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Targon",
+      "Runeterra"
+    ],
+    "releaseYear": 2016
+  },
+  {
+    "id": "Aurora",
+    "name": "Aurora",
+    "title": "the Witch Between Worlds",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Aurora.png",
+    "gender": "Female",
+    "positions": [
+      "Middle",
+      "Top"
+    ],
+    "species": [
+      "Vastaya"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2024
+  },
+  {
+    "id": "Azir",
+    "name": "Azir",
+    "title": "the Emperor of the Sands",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Azir.png",
+    "gender": "Male",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Ascended"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Shurima"
+    ],
+    "releaseYear": 2014
+  },
+  {
+    "id": "Bard",
+    "name": "Bard",
+    "title": "the Wandering Caretaker",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Bard.png",
+    "gender": "Male",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Celestial"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "releaseYear": 2015
+  },
+  {
+    "id": "Belveth",
+    "name": "Bel'Veth",
+    "title": "the Empress of the Void",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Belveth.png",
+    "gender": "Female",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Void-Being"
+    ],
+    "resource": "Manaless",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "The Void"
+    ],
+    "releaseYear": 2022
+  },
+  {
+    "id": "Blitzcrank",
+    "name": "Blitzcrank",
+    "title": "the Great Steam Golem",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Blitzcrank.png",
+    "gender": "Other",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Golem"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Zaun"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Brand",
+    "name": "Brand",
+    "title": "the Burning Vengeance",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Brand.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle",
+      "Support",
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Runeterra",
+      "Freljord"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Braum",
+    "name": "Braum",
+    "title": "the Heart of the Freljord",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Braum.png",
+    "gender": "Male",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Iceborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2014
+  },
+  {
+    "id": "Briar",
+    "name": "Briar",
+    "title": "the Restrained Hunger",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Briar.png",
+    "gender": "Female",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Golem",
+      "Magically Altered"
+    ],
+    "resource": "Frenzy",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2023
+  },
+  {
+    "id": "Caitlyn",
+    "name": "Caitlyn",
+    "title": "the Sheriff of Piltover",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Caitlyn.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Piltover"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Camille",
+    "name": "Camille",
+    "title": "the Steel Shadow",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Camille.png",
+    "gender": "Female",
+    "positions": [
+      "Top",
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Cyborg"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Piltover"
+    ],
+    "releaseYear": 2016
+  },
+  {
+    "id": "Cassiopeia",
+    "name": "Cassiopeia",
+    "title": "the Serpent's Embrace",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Cassiopeia.png",
+    "gender": "Female",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Noxus",
+      "Shurima"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Chogath",
+    "name": "Cho'Gath",
+    "title": "the Terror of the Void",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Chogath.png",
+    "gender": "Other",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Void-Being"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "The Void"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Corki",
+    "name": "Corki",
+    "title": "the Daring Bombardier",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Corki.png",
+    "gender": "Male",
+    "positions": [
+      "Bottom",
+      "Middle"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Bandle City"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Darius",
+    "name": "Darius",
+    "title": "the Hand of Noxus",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Darius.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Diana",
+    "name": "Diana",
+    "title": "Scorn of the Moon",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Diana.png",
+    "gender": "Female",
+    "positions": [
+      "Jungle",
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Aspect"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Targon"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "DrMundo",
+    "name": "Dr. Mundo",
+    "title": "the Madman of Zaun",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/DrMundo.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Jungle"
+    ],
+    "species": [
+      "Human",
+      "Chemically Altered"
+    ],
+    "resource": "Health",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Zaun"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Draven",
+    "name": "Draven",
+    "title": "the Glorious Executioner",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Draven.png",
+    "gender": "Male",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Ekko",
+    "name": "Ekko",
+    "title": "the Boy Who Shattered Time",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Ekko.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle",
+      "Middle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Zaun"
+    ],
+    "releaseYear": 2015
+  },
+  {
+    "id": "Elise",
+    "name": "Elise",
+    "title": "the Spider Queen",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Elise.png",
+    "gender": "Female",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Shadow Isles",
+      "Noxus"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Evelynn",
+    "name": "Evelynn",
+    "title": "Agony's Embrace",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Evelynn.png",
+    "gender": "Female",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Demon"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Ezreal",
+    "name": "Ezreal",
+    "title": "the Prodigal Explorer",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Ezreal.png",
+    "gender": "Male",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Piltover"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Fiddlesticks",
+    "name": "Fiddlesticks",
+    "title": "the Ancient Fear",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Fiddlesticks.png",
+    "gender": "Other",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Demon"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Fiora",
+    "name": "Fiora",
+    "title": "the Grand Duelist",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Fiora.png",
+    "gender": "Female",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Demacia"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Fizz",
+    "name": "Fizz",
+    "title": "the Tidal Trickster",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Fizz.png",
+    "gender": "Male",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Bilgewater",
+      "Bandle City"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Galio",
+    "name": "Galio",
+    "title": "the Colossus",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Galio.png",
+    "gender": "Male",
+    "positions": [
+      "Middle",
+      "Support"
+    ],
+    "species": [
+      "Golem"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Demacia"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Gangplank",
+    "name": "Gangplank",
+    "title": "the Saltwater Scourge",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Gangplank.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Bilgewater"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Garen",
+    "name": "Garen",
+    "title": "The Might of Demacia",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Garen.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Manaless",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Demacia"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Gnar",
+    "name": "Gnar",
+    "title": "the Missing Link",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Gnar.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Rage",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2014
+  },
+  {
+    "id": "Gragas",
+    "name": "Gragas",
+    "title": "the Rabble Rouser",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Gragas.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle",
+      "Top",
+      "Middle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Graves",
+    "name": "Graves",
+    "title": "the Outlaw",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Graves.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Bilgewater"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Gwen",
+    "name": "Gwen",
+    "title": "The Hallowed Seamstress",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Gwen.png",
+    "gender": "Female",
+    "positions": [
+      "Top",
+      "Jungle"
+    ],
+    "species": [
+      "Magically Altered"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ],
+    "releaseYear": 2021
+  },
+  {
+    "id": "Hecarim",
+    "name": "Hecarim",
+    "title": "the Shadow of War",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Hecarim.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human",
+      "Undead"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Heimerdinger",
+    "name": "Heimerdinger",
+    "title": "the Revered Inventor",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Heimerdinger.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Middle",
+      "Support"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Piltover",
+      "Bandle City"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Hwei",
+    "name": "Hwei",
+    "title": "the Visionary",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Hwei.png",
+    "gender": "Male",
+    "positions": [
+      "Middle",
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2023
+  },
+  {
+    "id": "Illaoi",
+    "name": "Illaoi",
+    "title": "the Kraken Priestess",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Illaoi.png",
+    "gender": "Female",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Bilgewater"
+    ],
+    "releaseYear": 2015
+  },
+  {
+    "id": "Irelia",
+    "name": "Irelia",
+    "title": "the Blade Dancer",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Irelia.png",
+    "gender": "Female",
+    "positions": [
+      "Top",
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Ivern",
+    "name": "Ivern",
+    "title": "the Green Father",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Ivern.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ionia",
+      "Freljord"
+    ],
+    "releaseYear": 2016
+  },
+  {
+    "id": "Janna",
+    "name": "Janna",
+    "title": "the Storm's Fury",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Janna.png",
+    "gender": "Female",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Spirit"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Zaun"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "JarvanIV",
+    "name": "Jarvan IV",
+    "title": "the Exemplar of Demacia",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/JarvanIV.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Demacia"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Jax",
+    "name": "Jax",
+    "title": "Grandmaster at Arms",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Jax.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Jungle"
+    ],
+    "species": [
+      "Unknown"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Runeterra",
+      "Shurima"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Jayce",
+    "name": "Jayce",
+    "title": "the Defender of Tomorrow",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Jayce.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Middle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Piltover"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Jhin",
+    "name": "Jhin",
+    "title": "the Virtuoso",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Jhin.png",
+    "gender": "Male",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2016
+  },
+  {
+    "id": "Jinx",
+    "name": "Jinx",
+    "title": "the Loose Cannon",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Jinx.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Zaun"
+    ],
+    "releaseYear": 2013
+  },
+  {
+    "id": "KSante",
+    "name": "K'Sante",
+    "title": "the Pride of Nazumah",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/KSante.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Shurima"
+    ],
+    "releaseYear": 2022
+  },
+  {
+    "id": "Kaisa",
+    "name": "Kai'Sa",
+    "title": "Daughter of the Void",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Kaisa.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human",
+      "Void-Being"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "The Void",
+      "Shurima"
+    ],
+    "releaseYear": 2018
+  },
+  {
+    "id": "Kalista",
+    "name": "Kalista",
+    "title": "the Spear of Vengeance",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Kalista.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Undead"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ],
+    "releaseYear": 2014
+  },
+  {
+    "id": "Karma",
+    "name": "Karma",
+    "title": "the Enlightened One",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Karma.png",
+    "gender": "Female",
+    "positions": [
+      "Middle",
+      "Support",
+      "Top"
+    ],
+    "species": [
+      "Human",
+      "Spirit"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Karthus",
+    "name": "Karthus",
+    "title": "the Deathsinger",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Karthus.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human",
+      "Undead"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Shadow Isles",
+      "Noxus"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Kassadin",
+    "name": "Kassadin",
+    "title": "the Void Walker",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Kassadin.png",
+    "gender": "Male",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Void-Being"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "The Void",
+      "Shurima"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Katarina",
+    "name": "Katarina",
+    "title": "the Sinister Blade",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Katarina.png",
+    "gender": "Female",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Manaless",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Kayle",
+    "name": "Kayle",
+    "title": "the Righteous",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Kayle.png",
+    "gender": "Female",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human",
+      "Celestial"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Demacia",
+      "Targon"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Kayn",
+    "name": "Kayn",
+    "title": "the Shadow Reaper",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Kayn.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human",
+      "Darkin"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ionia",
+      "Noxus"
+    ],
+    "releaseYear": 2017
+  },
+  {
+    "id": "Kennen",
+    "name": "Kennen",
+    "title": "the Heart of the Tempest",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Kennen.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Energy",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ionia",
+      "Bandle City"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Khazix",
+    "name": "Kha'Zix",
+    "title": "the Voidreaver",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Khazix.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Void-Being"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "The Void"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Kindred",
+    "name": "Kindred",
+    "title": "The Eternal Hunters",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Kindred.png",
+    "gender": "Other",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Spirit",
+      "God"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "releaseYear": 2015
+  },
+  {
+    "id": "Kled",
+    "name": "Kled",
+    "title": "the Cantankerous Cavalier",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Kled.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Courage",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2016
+  },
+  {
+    "id": "KogMaw",
+    "name": "Kog'Maw",
+    "title": "the Mouth of the Abyss",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/KogMaw.png",
+    "gender": "Male",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Void-Being"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "The Void"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Leblanc",
+    "name": "LeBlanc",
+    "title": "the Deceiver",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Leblanc.png",
+    "gender": "Female",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "LeeSin",
+    "name": "Lee Sin",
+    "title": "the Blind Monk",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/LeeSin.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Energy",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Leona",
+    "name": "Leona",
+    "title": "the Radiant Dawn",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Leona.png",
+    "gender": "Female",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Aspect"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Targon"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Lillia",
+    "name": "Lillia",
+    "title": "the Bashful Bloom",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Lillia.png",
+    "gender": "Female",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Spirit"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2020
+  },
+  {
+    "id": "Lissandra",
+    "name": "Lissandra",
+    "title": "the Ice Witch",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Lissandra.png",
+    "gender": "Female",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Iceborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2013
+  },
+  {
+    "id": "Locke",
+    "name": "Locke",
+    "title": "the Ashen Exorcist",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Locke.png",
+    "gender": "Male",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Demacia"
+    ],
+    "releaseYear": 2026
+  },
+  {
+    "id": "Lucian",
+    "name": "Lucian",
+    "title": "the Purifier",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Lucian.png",
+    "gender": "Male",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Demacia",
+      "Runeterra"
+    ],
+    "releaseYear": 2013
+  },
+  {
+    "id": "Lulu",
+    "name": "Lulu",
+    "title": "the Fae Sorceress",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Lulu.png",
+    "gender": "Female",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Bandle City"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Lux",
+    "name": "Lux",
+    "title": "the Lady of Luminosity",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Lux.png",
+    "gender": "Female",
+    "positions": [
+      "Middle",
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Demacia"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Malphite",
+    "name": "Malphite",
+    "title": "Shard of the Monolith",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Malphite.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Middle",
+      "Support"
+    ],
+    "species": [
+      "Golem"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ixtal",
+      "Shurima"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Malzahar",
+    "name": "Malzahar",
+    "title": "the Prophet of the Void",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Malzahar.png",
+    "gender": "Male",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "The Void",
+      "Shurima"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Maokai",
+    "name": "Maokai",
+    "title": "the Twisted Treant",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Maokai.png",
+    "gender": "Male",
+    "positions": [
+      "Support",
+      "Top",
+      "Jungle"
+    ],
+    "species": [
+      "Spirit"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "MasterYi",
+    "name": "Master Yi",
+    "title": "the Wuju Bladesman",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/MasterYi.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Mel",
+    "name": "Mel",
+    "title": "the Soul's Reflection",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Mel.png",
+    "gender": "Female",
+    "positions": [
+      "Middle",
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Noxus",
+      "Piltover"
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "Milio",
+    "name": "Milio",
+    "title": "The Gentle Flame",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Milio.png",
+    "gender": "Male",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ixtal"
+    ],
+    "releaseYear": 2023
+  },
+  {
+    "id": "MissFortune",
+    "name": "Miss Fortune",
+    "title": "the Bounty Hunter",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/MissFortune.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Bilgewater"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "MonkeyKing",
+    "name": "Wukong",
+    "title": "the Monkey King",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/MonkeyKing.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle",
+      "Top"
+    ],
+    "species": [
+      "Vastaya"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Mordekaiser",
+    "name": "Mordekaiser",
+    "title": "the Iron Revenant",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Mordekaiser.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human",
+      "Revenant"
+    ],
+    "resource": "Shield",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Morgana",
+    "name": "Morgana",
+    "title": "the Fallen",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Morgana.png",
+    "gender": "Female",
+    "positions": [
+      "Support",
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Demacia",
+      "Targon"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Naafiri",
+    "name": "Naafiri",
+    "title": "the Hound of a Hundred Bites",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Naafiri.png",
+    "gender": "Female",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Darkin"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Shurima",
+      "Runeterra"
+    ],
+    "releaseYear": 2023
+  },
+  {
+    "id": "Nami",
+    "name": "Nami",
+    "title": "the Tidecaller",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Nami.png",
+    "gender": "Female",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Vastaya"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Nasus",
+    "name": "Nasus",
+    "title": "the Curator of the Sands",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Nasus.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human",
+      "Ascended"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Shurima"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Nautilus",
+    "name": "Nautilus",
+    "title": "the Titan of the Depths",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Nautilus.png",
+    "gender": "Male",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Revenant"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Bilgewater"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Neeko",
+    "name": "Neeko",
+    "title": "the Curious Chameleon",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Neeko.png",
+    "gender": "Female",
+    "positions": [
+      "Middle",
+      "Support"
+    ],
+    "species": [
+      "Vastaya"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ixtal"
+    ],
+    "releaseYear": 2018
+  },
+  {
+    "id": "Nidalee",
+    "name": "Nidalee",
+    "title": "the Bestial Huntress",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Nidalee.png",
+    "gender": "Female",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ixtal"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Nilah",
+    "name": "Nilah",
+    "title": "the Joy Unbound",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Nilah.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Bilgewater"
+    ],
+    "releaseYear": 2022
+  },
+  {
+    "id": "Nocturne",
+    "name": "Nocturne",
+    "title": "the Eternal Nightmare",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Nocturne.png",
+    "gender": "Other",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Demon"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Nunu",
+    "name": "Nunu & Willump",
+    "title": "the Boy and His Yeti",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Nunu.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human",
+      "Yeti"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Olaf",
+    "name": "Olaf",
+    "title": "the Berserker",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Olaf.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Orianna",
+    "name": "Orianna",
+    "title": "the Lady of Clockwork",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Orianna.png",
+    "gender": "Female",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Golem"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Piltover",
+      "Zaun"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Ornn",
+    "name": "Ornn",
+    "title": "The Fire below the Mountain",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Ornn.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Spirit",
+      "God"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2017
+  },
+  {
+    "id": "Pantheon",
+    "name": "Pantheon",
+    "title": "the Unbreakable Spear",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Pantheon.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Support",
+      "Jungle",
+      "Middle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Targon"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Poppy",
+    "name": "Poppy",
+    "title": "Keeper of the Hammer",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Poppy.png",
+    "gender": "Female",
+    "positions": [
+      "Top",
+      "Jungle"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Demacia",
+      "Bandle City"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Pyke",
+    "name": "Pyke",
+    "title": "the Bloodharbor Ripper",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Pyke.png",
+    "gender": "Male",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Revenant"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Bilgewater"
+    ],
+    "releaseYear": 2018
+  },
+  {
+    "id": "Qiyana",
+    "name": "Qiyana",
+    "title": "Empress of the Elements",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Qiyana.png",
+    "gender": "Female",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ixtal"
+    ],
+    "releaseYear": 2019
+  },
+  {
+    "id": "Quinn",
+    "name": "Quinn",
+    "title": "Demacia's Wings",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Quinn.png",
+    "gender": "Female",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Demacia"
+    ],
+    "releaseYear": 2013
+  },
+  {
+    "id": "Rakan",
+    "name": "Rakan",
+    "title": "The Charmer",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Rakan.png",
+    "gender": "Male",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Vastaya"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2017
+  },
+  {
+    "id": "Rammus",
+    "name": "Rammus",
+    "title": "the Armordillo",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Rammus.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Unknown"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Shurima"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "RekSai",
+    "name": "Rek'Sai",
+    "title": "the Void Burrower",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/RekSai.png",
+    "gender": "Female",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Void-Being"
+    ],
+    "resource": "Fury",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "The Void",
+      "Shurima"
+    ],
+    "releaseYear": 2014
+  },
+  {
+    "id": "Rell",
+    "name": "Rell",
+    "title": "the Iron Maiden",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Rell.png",
+    "gender": "Female",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2020
+  },
+  {
+    "id": "Renata",
+    "name": "Renata Glasc",
+    "title": "the Chem-Baroness",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Renata.png",
+    "gender": "Female",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Cyborg"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Zaun"
+    ],
+    "releaseYear": 2022
+  },
+  {
+    "id": "Renekton",
+    "name": "Renekton",
+    "title": "the Butcher of the Sands",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Renekton.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human",
+      "Ascended"
+    ],
+    "resource": "Fury",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Shurima"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Rengar",
+    "name": "Rengar",
+    "title": "the Pridestalker",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Rengar.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle",
+      "Top"
+    ],
+    "species": [
+      "Vastaya"
+    ],
+    "resource": "Ferocity",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ixtal"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Riven",
+    "name": "Riven",
+    "title": "the Exile",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Riven.png",
+    "gender": "Female",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Manaless",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Noxus",
+      "Ionia"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Rumble",
+    "name": "Rumble",
+    "title": "the Mechanized Menace",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Rumble.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Middle"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Heat",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Bandle City"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Ryze",
+    "name": "Ryze",
+    "title": "the Rune Mage",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Ryze.png",
+    "gender": "Male",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Samira",
+    "name": "Samira",
+    "title": "the Desert Rose",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Samira.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Noxus",
+      "Shurima"
+    ],
+    "releaseYear": 2020
+  },
+  {
+    "id": "Sejuani",
+    "name": "Sejuani",
+    "title": "Fury of the North",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Sejuani.png",
+    "gender": "Female",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human",
+      "Iceborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Senna",
+    "name": "Senna",
+    "title": "the Redeemer",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Senna.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom",
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "releaseYear": 2019
+  },
+  {
+    "id": "Seraphine",
+    "name": "Seraphine",
+    "title": "the Starry-Eyed Songstress",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Seraphine.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom",
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Piltover",
+      "Zaun"
+    ],
+    "releaseYear": 2020
+  },
+  {
+    "id": "Sett",
+    "name": "Sett",
+    "title": "the Boss",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Sett.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human",
+      "Vastaya"
+    ],
+    "resource": "Grit",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2020
+  },
+  {
+    "id": "Shaco",
+    "name": "Shaco",
+    "title": "the Demon Jester",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Shaco.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle",
+      "Support"
+    ],
+    "species": [
+      "Unknown"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Shen",
+    "name": "Shen",
+    "title": "the Eye of Twilight",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Shen.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Support"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Energy",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Shyvana",
+    "name": "Shyvana",
+    "title": "the Half-Dragon",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Shyvana.png",
+    "gender": "Female",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human",
+      "Dragon"
+    ],
+    "resource": "Fury",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Demacia"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Singed",
+    "name": "Singed",
+    "title": "the Mad Chemist",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Singed.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human",
+      "Chemically Altered"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Zaun",
+      "Piltover"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Sion",
+    "name": "Sion",
+    "title": "The Undead Juggernaut",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Sion.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Revenant"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Sivir",
+    "name": "Sivir",
+    "title": "the Battle Mistress",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Sivir.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Shurima"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Skarner",
+    "name": "Skarner",
+    "title": "the Primordial Sovereign",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Skarner.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle",
+      "Top"
+    ],
+    "species": [
+      "Brackern"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ixtal"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Smolder",
+    "name": "Smolder",
+    "title": "the Fiery Fledgling",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Smolder.png",
+    "gender": "Male",
+    "positions": [
+      "Bottom",
+      "Top",
+      "Middle"
+    ],
+    "species": [
+      "Dragon"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2024
+  },
+  {
+    "id": "Sona",
+    "name": "Sona",
+    "title": "Maven of the Strings",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Sona.png",
+    "gender": "Female",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Demacia",
+      "Ionia"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Soraka",
+    "name": "Soraka",
+    "title": "the Starchild",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Soraka.png",
+    "gender": "Female",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Celestial"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Targon"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Swain",
+    "name": "Swain",
+    "title": "the Noxian Grand General",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Swain.png",
+    "gender": "Male",
+    "positions": [
+      "Middle",
+      "Support",
+      "Bottom"
+    ],
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Sylas",
+    "name": "Sylas",
+    "title": "the Unshackled",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Sylas.png",
+    "gender": "Male",
+    "positions": [
+      "Middle",
+      "Top"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Demacia"
+    ],
+    "releaseYear": 2019
+  },
+  {
+    "id": "Syndra",
+    "name": "Syndra",
+    "title": "the Dark Sovereign",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Syndra.png",
+    "gender": "Female",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "TahmKench",
+    "name": "Tahm Kench",
+    "title": "The River King",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/TahmKench.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Support"
+    ],
+    "species": [
+      "Demon"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "releaseYear": 2015
+  },
+  {
+    "id": "Taliyah",
+    "name": "Taliyah",
+    "title": "the Stoneweaver",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Taliyah.png",
+    "gender": "Female",
+    "positions": [
+      "Jungle",
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Shurima"
+    ],
+    "releaseYear": 2016
+  },
+  {
+    "id": "Talon",
+    "name": "Talon",
+    "title": "the Blade's Shadow",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Talon.png",
+    "gender": "Male",
+    "positions": [
+      "Middle",
+      "Jungle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Taric",
+    "name": "Taric",
+    "title": "the Shield of Valoran",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Taric.png",
+    "gender": "Male",
+    "positions": [
+      "Support",
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Aspect"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Targon",
+      "Demacia"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Teemo",
+    "name": "Teemo",
+    "title": "the Swift Scout",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Teemo.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Jungle",
+      "Support"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Bandle City"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Thresh",
+    "name": "Thresh",
+    "title": "the Chain Warden",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Thresh.png",
+    "gender": "Male",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Undead"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ],
+    "releaseYear": 2013
+  },
+  {
+    "id": "Tristana",
+    "name": "Tristana",
+    "title": "the Yordle Gunner",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Tristana.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom",
+      "Middle"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Bandle City"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Trundle",
+    "name": "Trundle",
+    "title": "the Troll King",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Trundle.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Jungle"
+    ],
+    "species": [
+      "Troll"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Tryndamere",
+    "name": "Tryndamere",
+    "title": "the Barbarian King",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Tryndamere.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Fury",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "TwistedFate",
+    "name": "Twisted Fate",
+    "title": "the Card Master",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/TwistedFate.png",
+    "gender": "Male",
+    "positions": [
+      "Middle",
+      "Bottom",
+      "Top"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Bilgewater"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Twitch",
+    "name": "Twitch",
+    "title": "the Plague Rat",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Twitch.png",
+    "gender": "Male",
+    "positions": [
+      "Bottom",
+      "Support"
+    ],
+    "species": [
+      "Chemically Altered"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Zaun"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Udyr",
+    "name": "Udyr",
+    "title": "the Spirit Walker",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Udyr.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Jungle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Freljord",
+      "Ionia"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Urgot",
+    "name": "Urgot",
+    "title": "the Dreadnought",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Urgot.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human",
+      "Cyborg"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Zaun",
+      "Noxus"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Varus",
+    "name": "Varus",
+    "title": "the Arrow of Retribution",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Varus.png",
+    "gender": "Male",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Darkin",
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ionia",
+      "Shurima"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Vayne",
+    "name": "Vayne",
+    "title": "the Night Hunter",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Vayne.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom",
+      "Top"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Demacia"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Veigar",
+    "name": "Veigar",
+    "title": "the Tiny Master of Evil",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Veigar.png",
+    "gender": "Male",
+    "positions": [
+      "Middle",
+      "Support"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Bandle City",
+      "Runeterra"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Velkoz",
+    "name": "Vel'Koz",
+    "title": "the Eye of the Void",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Velkoz.png",
+    "gender": "Male",
+    "positions": [
+      "Support",
+      "Middle"
+    ],
+    "species": [
+      "Void-Being"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "The Void"
+    ],
+    "releaseYear": 2014
+  },
+  {
+    "id": "Vex",
+    "name": "Vex",
+    "title": "the Gloomist",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Vex.png",
+    "gender": "Female",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Shadow Isles",
+      "Bandle City"
+    ],
+    "releaseYear": 2021
+  },
+  {
+    "id": "Vi",
+    "name": "Vi",
+    "title": "the Piltover Enforcer",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Vi.png",
+    "gender": "Female",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Piltover",
+      "Zaun"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Viego",
+    "name": "Viego",
+    "title": "The Ruined King",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Viego.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Undead"
+    ],
+    "resource": "Manaless",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ],
+    "releaseYear": 2021
+  },
+  {
+    "id": "Viktor",
+    "name": "Viktor",
+    "title": "the Herald of the Arcane",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Viktor.png",
+    "gender": "Male",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Cyborg"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Zaun"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Vladimir",
+    "name": "Vladimir",
+    "title": "the Crimson Reaper",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Vladimir.png",
+    "gender": "Male",
+    "positions": [
+      "Middle",
+      "Top"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Crimson Rush",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Noxus"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Volibear",
+    "name": "Volibear",
+    "title": "the Relentless Storm",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Volibear.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Jungle"
+    ],
+    "species": [
+      "Spirit",
+      "God"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Freljord"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Warwick",
+    "name": "Warwick",
+    "title": "the Uncaged Wrath of Zaun",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Warwick.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle",
+      "Top"
+    ],
+    "species": [
+      "Human",
+      "Chemically Altered"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Zaun"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Xayah",
+    "name": "Xayah",
+    "title": "the Rebel",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Xayah.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Vastaya"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2017
+  },
+  {
+    "id": "Xerath",
+    "name": "Xerath",
+    "title": "the Magus Ascendant",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Xerath.png",
+    "gender": "Male",
+    "positions": [
+      "Middle",
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Ascended"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Shurima"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "XinZhao",
+    "name": "Xin Zhao",
+    "title": "the Seneschal of Demacia",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/XinZhao.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Demacia",
+      "Ionia"
+    ],
+    "releaseYear": 2010
+  },
+  {
+    "id": "Yasuo",
+    "name": "Yasuo",
+    "title": "the Unforgiven",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Yasuo.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Middle",
+      "Bottom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Flow",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2013
+  },
+  {
+    "id": "Yone",
+    "name": "Yone",
+    "title": "the Unforgotten",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Yone.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Spirit"
+    ],
+    "resource": "Flow",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2020
+  },
+  {
+    "id": "Yorick",
+    "name": "Yorick",
+    "title": "Shepherd of Souls",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Yorick.png",
+    "gender": "Male",
+    "positions": [
+      "Top"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ],
+    "releaseYear": 2011
+  },
+  {
+    "id": "Yunara",
+    "name": "Yunara",
+    "title": "the Unbroken Faith",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Yunara.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "Yuumi",
+    "name": "Yuumi",
+    "title": "the Magical Cat",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Yuumi.png",
+    "gender": "Female",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Cat",
+      "Magically Altered"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Bandle City"
+    ],
+    "releaseYear": 2019
+  },
+  {
+    "id": "Zaahen",
+    "name": "Zaahen",
+    "title": "The Unsundered",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Zaahen.png",
+    "gender": "Male",
+    "positions": [
+      "Top",
+      "Jungle"
+    ],
+    "species": [
+      "Darkin"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Runeterra",
+      "Shurima"
+    ],
+    "releaseYear": 2025
+  },
+  {
+    "id": "Zac",
+    "name": "Zac",
+    "title": "the Secret Weapon",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Zac.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle",
+      "Top",
+      "Support"
+    ],
+    "species": [
+      "Golem",
+      "Chemically Altered"
+    ],
+    "resource": "Health",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Zaun"
+    ],
+    "releaseYear": 2013
+  },
+  {
+    "id": "Zed",
+    "name": "Zed",
+    "title": "the Master of Shadows",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Zed.png",
+    "gender": "Male",
+    "positions": [
+      "Jungle",
+      "Middle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "resource": "Energy",
+    "range": [
+      "Melee"
+    ],
+    "regions": [
+      "Ionia"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Zeri",
+    "name": "Zeri",
+    "title": "The Spark of Zaun",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Zeri.png",
+    "gender": "Female",
+    "positions": [
+      "Bottom"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Zaun"
+    ],
+    "releaseYear": 2022
+  },
+  {
+    "id": "Ziggs",
+    "name": "Ziggs",
+    "title": "the Hexplosives Expert",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Ziggs.png",
+    "gender": "Male",
+    "positions": [
+      "Bottom",
+      "Middle"
+    ],
+    "species": [
+      "Yordle"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Zaun",
+      "Bandle City"
+    ],
+    "releaseYear": 2012
+  },
+  {
+    "id": "Zilean",
+    "name": "Zilean",
+    "title": "the Chronokeeper",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Zilean.png",
+    "gender": "Male",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Runeterra"
+    ],
+    "releaseYear": 2009
+  },
+  {
+    "id": "Zoe",
+    "name": "Zoe",
+    "title": "the Aspect of Twilight",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Zoe.png",
+    "gender": "Female",
+    "positions": [
+      "Middle"
+    ],
+    "species": [
+      "Human",
+      "Aspect"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Targon"
+    ],
+    "releaseYear": 2017
+  },
+  {
+    "id": "Zyra",
+    "name": "Zyra",
+    "title": "Rise of the Thorns",
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.22.1/img/champion/Zyra.png",
+    "gender": "Female",
+    "positions": [
+      "Support"
+    ],
+    "species": [
+      "Unknown"
+    ],
+    "resource": "Mana",
+    "range": [
+      "Ranged"
+    ],
+    "regions": [
+      "Ixtal"
+    ],
+    "releaseYear": 2012
+  }
+]

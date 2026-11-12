@@ -1,0 +1,189 @@
+# Verify notes part 1
+
+Source per champion: wiki infobox at https://wiki.leagueoflegends.com/en-us/Universe:<Name> (species, pronoun, originplace, region fields). Regions use 'Runeterra' for unaffiliated, matching build.py. No position/resource/range/releaseYear contradictions found.
+
+- Aatrox: https://wiki.leagueoflegends.com/en-us/Universe:Aatrox | regions ['Runeterra']->['Runeterra', 'Shurima'] | added Shurima (origin)
+- Alistar: https://wiki.leagueoflegends.com/en-us/Universe:Alistar | no gender/region change
+- Annie: https://wiki.leagueoflegends.com/en-us/Universe:Annie | regions ['Runeterra']->['Runeterra', 'Noxus'] | added Noxus (origin)
+- Aurora: https://wiki.leagueoflegends.com/en-us/Universe:Aurora | gender None->Female | gender was null; Bryni vastaya
+- Blitzcrank: https://wiki.leagueoflegends.com/en-us/Universe:Blitzcrank | gender Male->Other | CHANGED gender Male->Other (wiki pronoun They/Them)
+- Caitlyn: https://wiki.leagueoflegends.com/en-us/Universe:Caitlyn | no gender/region change
+- Corki: https://wiki.leagueoflegends.com/en-us/Universe:Corki | no gender/region change
+- Draven: https://wiki.leagueoflegends.com/en-us/Universe:Draven | no gender/region change
+- Ezreal: https://wiki.leagueoflegends.com/en-us/Universe:Ezreal | no gender/region change
+- Galio: https://wiki.leagueoflegends.com/en-us/Universe:Galio | no gender/region change | petricite golem
+- Gragas: https://wiki.leagueoflegends.com/en-us/Universe:Gragas | no gender/region change
+- Heimerdinger: https://wiki.leagueoflegends.com/en-us/Universe:Heimerdinger | regions ['Piltover']->['Piltover', 'Bandle City'] | added Bandle City (origin)
+- Ivern: https://wiki.leagueoflegends.com/en-us/Universe:Ivern | regions ['Ionia']->['Ionia', 'Freljord'] | UNCERTAIN species: wiki says Spirit Tree (formerly Human); added Freljord origin
+- Jayce: https://wiki.leagueoflegends.com/en-us/Universe:Jayce | no gender/region change
+- Kaisa: https://wiki.leagueoflegends.com/en-us/Universe:Kai'Sa | regions ['The Void']->['The Void', 'Shurima'] | wiki species Human; Void-Being for symbiote; added Shurima origin
+- Kassadin: https://wiki.leagueoflegends.com/en-us/Universe:Kassadin | regions ['The Void']->['The Void', 'Shurima'] | wiki species Human; Void-Being for void-altered; added Shurima origin
+- Kennen: https://wiki.leagueoflegends.com/en-us/Universe:Kennen | regions ['Ionia']->['Ionia', 'Bandle City'] | added Bandle City origin
+- KogMaw: https://wiki.leagueoflegends.com/en-us/Universe:Kog'Maw | no gender/region change
+- Lillia: https://wiki.leagueoflegends.com/en-us/Universe:Lillia | no gender/region change | UNCERTAIN species: wiki says Fae Fawn (dream spirit)
+- Lulu: https://wiki.leagueoflegends.com/en-us/Universe:Lulu | no gender/region change
+- Maokai: https://wiki.leagueoflegends.com/en-us/Universe:Maokai | no gender/region change | UNCERTAIN species: wiki says Treant (nature spirit); Blessed Isles not in vocab
+- MissFortune: https://wiki.leagueoflegends.com/en-us/Universe:Miss_Fortune | gender None->Female | gender was null
+- Naafiri: https://wiki.leagueoflegends.com/en-us/Universe:Naafiri | regions ['Shurima']->['Shurima', 'Runeterra'] | added Runeterra (wiki lists both)
+- Neeko: https://wiki.leagueoflegends.com/en-us/Universe:Neeko | no gender/region change | UNCERTAIN gender: wiki pronouns She/Her, He/Him, They/Them; kept Female
+- Nunu: https://wiki.leagueoflegends.com/en-us/Universe:Nunu | no gender/region change | NEW species term Yeti for Willump
+- Pantheon: https://wiki.leagueoflegends.com/en-us/Universe:Pantheon | no gender/region change | UNCERTAIN: wiki strikes Aspect Host (Atreus now human, aspect lost)
+- Quinn: https://wiki.leagueoflegends.com/en-us/Universe:Quinn | no gender/region change
+- Rell: https://wiki.leagueoflegends.com/en-us/Universe:Rell | no gender/region change | Magicborn (metal magic) from lore
+- Riven: https://wiki.leagueoflegends.com/en-us/Universe:Riven | regions ['Noxus']->['Noxus', 'Ionia'] | added Ionia (wiki lists both)
+- Sejuani: https://wiki.leagueoflegends.com/en-us/Universe:Sejuani | no gender/region change
+- Shaco: https://wiki.leagueoflegends.com/en-us/Universe:Shaco | no gender/region change | UNCERTAIN species: wiki says Unknown
+- Sion: https://wiki.leagueoflegends.com/en-us/Universe:Sion | no gender/region change | wiki: Revenant (formerly Human); could also be Undead
+- Sona: https://wiki.leagueoflegends.com/en-us/Universe:Sona | regions ['Demacia']->['Demacia', 'Ionia'] | added Ionia (origin)
+- Syndra: https://wiki.leagueoflegends.com/en-us/Universe:Syndra | no gender/region change
+- Taric: https://wiki.leagueoflegends.com/en-us/Universe:Taric | regions ['Targon']->['Targon', 'Demacia'] | added Demacia (origin)
+- Trundle: https://wiki.leagueoflegends.com/en-us/Universe:Trundle | no gender/region change
+- Udyr: https://wiki.leagueoflegends.com/en-us/Universe:Udyr | regions ['Freljord']->['Freljord', 'Ionia'] | added Ionia (wiki lists both)
+- Veigar: https://wiki.leagueoflegends.com/en-us/Universe:Veigar | regions ['Bandle City']->['Bandle City', 'Runeterra'] | added Runeterra (wiki lists both)
+- Viego: https://wiki.leagueoflegends.com/en-us/Universe:Viego | no gender/region change | wiki: Wraith (formerly Human); Camavor not in vocab
+- Warwick: https://wiki.leagueoflegends.com/en-us/Universe:Warwick | no gender/region change
+- Yasuo: https://wiki.leagueoflegends.com/en-us/Universe:Yasuo | no gender/region change
+- Yuumi: https://wiki.leagueoflegends.com/en-us/Universe:Yuumi | no gender/region change | NEW species term Cat (wiki species Cat)
+- Zeri: https://wiki.leagueoflegends.com/en-us/Universe:Zeri | no gender/region change | UNCERTAIN species: wiki only says Human; electric powers -> Magicborn
+- Zyra: https://wiki.leagueoflegends.com/en-us/Universe:Zyra | no gender/region change | UNCERTAIN species: wiki says Unknown (plant being); pronoun She/It
+# Verification notes part 2
+
+Region source: Universe API associated-faction (universe-meeps.leagueoflegends.com/v1/en_us/champions/<slug>/index.json); all matched existing regions. Species were filled where the existing value was null. Positions, resource, range and releaseYear: no contradictions found.
+
+- Ahri: Female; Vastaya; Ionia. https://universe.leagueoflegends.com/en_US/champion/ahri/
+- Ambessa: Female; Human; Noxus. https://universe.leagueoflegends.com/en_US/champion/ambessa/ Changes: species None->['Human'].
+- Aphelios: Male; Human; Targon. https://universe.leagueoflegends.com/en_US/champion/aphelios/ Changes: gender None->Male; species None->['Human']. Note: gender null -> Male.
+- Azir: Male; God; Shurima. https://universe.leagueoflegends.com/en_US/champion/azir/ Changes: species None->['God']. Note: Ascended/God-Warrior; vocabulary has no 'Ascended', so I used 'God'. UNCERTAIN term, keep consistent with Nasus/Renekton/Xerath.
+- Brand: Male; Human, Magically Altered; Runeterra. https://universe.leagueoflegends.com/en_US/champion/brand/ Changes: species None->['Human', 'Magically Altered']. Note: Kegan Rodhe was originally Freljordian; I kept Runeterra only (Universe: unaffiliated).
+- Camille: Female; Human, Cyborg; Piltover. https://universe.leagueoflegends.com/en_US/champion/camille/ Changes: gender None->Female; species None->['Human', 'Cyborg']. Note: gender null -> Female; Hextech-augmented -> Cyborg.
+- Darius: Male; Human; Noxus. https://universe.leagueoflegends.com/en_US/champion/darius/ Changes: species None->['Human'].
+- Ekko: Male; Human; Zaun. https://universe.leagueoflegends.com/en_US/champion/ekko/ Changes: species None->['Human'].
+- Fiddlesticks: Other; Demon; Runeterra. https://universe.leagueoflegends.com/en_US/champion/fiddlesticks/ Changes: gender None->Other; species None->['Demon']. Note: gender null -> Other (bio uses 'it').
+- Gangplank: Male; Human; Bilgewater. https://universe.leagueoflegends.com/en_US/champion/gangplank/ Changes: species None->['Human'].
+- Graves: Male; Human; Bilgewater. https://universe.leagueoflegends.com/en_US/champion/graves/ Changes: species None->['Human'].
+- Hwei: Male; Human, Magicborn; Ionia. https://universe.leagueoflegends.com/en_US/champion/hwei/ Changes: species None->['Human', 'Magicborn']. Note: Painter-mage -> Human, Magicborn.
+- Janna: Female; Spirit; Zaun. https://universe.leagueoflegends.com/en_US/champion/janna/ Changes: species None->['Spirit']. Note: wind spirit -> Spirit (some sources call her a god).
+- Jhin: Male; Human; Ionia. https://universe.leagueoflegends.com/en_US/champion/jhin/ Changes: species None->['Human'].
+- Kalista: Female; Undead; Shadow Isles. https://universe.leagueoflegends.com/en_US/champion/kalista/ Changes: gender None->Female; species None->['Undead']. Note: gender null -> Female; Wraith -> Undead.
+- Katarina: Female; Human; Noxus. https://universe.leagueoflegends.com/en_US/champion/katarina/ Changes: species None->['Human'].
+- Khazix: Male; Void-Being; The Void. https://universe.leagueoflegends.com/en_US/champion/khazix/ Changes: species None->['Void-Being'].
+- Leblanc: Female; Human, Magicborn; Noxus. https://universe.leagueoflegends.com/en_US/champion/leblanc/ Changes: gender None->Female; species None->['Human', 'Magicborn']. Note: gender null -> Female.
+- Lissandra: Female; Human, Iceborn; Freljord. https://universe.leagueoflegends.com/en_US/champion/lissandra/ Changes: species None->['Human', 'Iceborn']. Note: Iceborn witch -> Human, Iceborn.
+- Lux: Female; Human, Magicborn; Demacia. https://universe.leagueoflegends.com/en_US/champion/lux/ Changes: species None->['Human', 'Magicborn'].
+- MasterYi: Male; Human; Ionia. https://universe.leagueoflegends.com/en_US/champion/masteryi/ Changes: species None->['Human'].
+- MonkeyKing: Male; Vastaya; Ionia. https://universe.leagueoflegends.com/en_US/champion/monkeyking/
+- Nami: Female; Vastaya; Runeterra. https://universe.leagueoflegends.com/en_US/champion/nami/
+- Nidalee: Female; Human; Ixtal. https://universe.leagueoflegends.com/en_US/champion/nidalee/ Changes: species None->['Human']. Note: Shapeshifter; listed as Human only. Slightly uncertain.
+- Olaf: Male; Human; Freljord. https://universe.leagueoflegends.com/en_US/champion/olaf/ Changes: species None->['Human'].
+- Poppy: Female; Yordle; Demacia. https://universe.leagueoflegends.com/en_US/champion/poppy/ Changes: gender None->Female; species None->['Yordle']. Note: gender null -> Female; Yordle living in Demacia (Bandle City not added).
+- Rakan: Male; Vastaya; Ionia. https://universe.leagueoflegends.com/en_US/champion/rakan/
+- Renata: Female; Human, Cyborg; Zaun. https://universe.leagueoflegends.com/en_US/champion/renataglasc/ Changes: species None->['Human', 'Cyborg']. Note: Chemtech prosthetic arms -> Cyborg. UNCERTAIN (could be Chemically Altered).
+- Rumble: Male; Yordle; Bandle City. https://universe.leagueoflegends.com/en_US/champion/rumble/ Changes: species None->['Yordle'].
+- Senna: Female; Human, Magically Altered; Runeterra. https://universe.leagueoflegends.com/en_US/champion/senna/ Changes: species None->['Human', 'Magically Altered']. Note: Black Mist infused -> Magically Altered. UNCERTAIN (Undead also defensible).
+- Shen: Male; Human; Ionia. https://universe.leagueoflegends.com/en_US/champion/shen/ Changes: species None->['Human'].
+- Sivir: Female; Human; Shurima. https://universe.leagueoflegends.com/en_US/champion/sivir/ Changes: species None->['Human'].
+- Soraka: Female; Celestial; Targon. https://universe.leagueoflegends.com/en_US/champion/soraka/ Changes: species None->['Celestial'].
+- TahmKench: Male; Demon; Runeterra. https://universe.leagueoflegends.com/en_US/champion/tahmkench/ Changes: gender None->Male; species None->['Demon']. Note: gender null -> Male (bio: he); river demon -> Demon.
+- Teemo: Male; Yordle; Bandle City. https://universe.leagueoflegends.com/en_US/champion/teemo/ Changes: species None->['Yordle'].
+- Tryndamere: Male; Human; Freljord. https://universe.leagueoflegends.com/en_US/champion/tryndamere/ Changes: species None->['Human'].
+- Urgot: Male; Human, Cyborg; Zaun. https://universe.leagueoflegends.com/en_US/champion/urgot/ Changes: species None->['Human', 'Cyborg']. Note: Noxian origin; kept Zaun only (Universe faction).
+- Velkoz: Male; Void-Being; The Void. https://universe.leagueoflegends.com/en_US/champion/velkoz/ Changes: species None->['Void-Being']. Note: Bio uses he -> Male kept.
+- Viktor: Male; Human, Cyborg; Zaun. https://universe.leagueoflegends.com/en_US/champion/viktor/ Changes: species None->['Human', 'Cyborg'].
+- Xayah: Female; Vastaya; Ionia. https://universe.leagueoflegends.com/en_US/champion/xayah/ Changes: gender None->Female. Note: gender null -> Female.
+- Yone: Male; Human, Spirit; Ionia. https://universe.leagueoflegends.com/en_US/champion/yone/ Changes: species None->['Human', 'Spirit']. Note: Dead, bound to the spirit realm -> Spirit. UNCERTAIN (Undead also defensible). Wiki confirms resource Flow.
+- Zaahen: Male; Darkin; Runeterra, Shurima. https://universe.leagueoflegends.com/en_US/champion/zaahen/ Changes: regions ['Runeterra']->['Runeterra', 'Shurima']. Note: Shuriman-born Ascended turned Darkin (secondary sources). Added Shurima as origin. Wiki: https://wiki.leagueoflegends.com/en-us/Zaahen confirms Darkin, Top/Jungle, Mana, Melee, released 2025-11-19.
+- Ziggs: Male; Yordle; Zaun. https://universe.leagueoflegends.com/en_US/champion/ziggs/ Changes: species None->['Yordle']. Note: Bandle City origin; kept Zaun only (Universe faction).
+# Verification notes part 3
+
+Source for every line: wiki.leagueoflegends.com Universe:<Champion> lore infobox (species/pronoun/region/origin). Release year, resource and range checked against https://wiki.leagueoflegends.com/en-us/Module:ChampionData/data: no contradictions. Positions not re-verified. All species were null before, so every species value is new. Region "Runeterra" kept as the existing label (not "Runeterra (unaffiliated)").
+
+- **Akali**: Female; ['Human']; ['Ionia'].  https://wiki.leagueoflegends.com/en-us/Universe:Akali
+- **Amumu**: Male; ['Yordle', 'Undead']; ['Shurima']. Wiki infobox says only Yordle; added Undead (cursed mummy). UNCERTAIN. https://wiki.leagueoflegends.com/en-us/Universe:Amumu
+- **Ashe**: Female; ['Human', 'Iceborn']; ['Freljord'].  https://wiki.leagueoflegends.com/en-us/Universe:Ashe
+- **Bard**: Male; ['Celestial']; ['Runeterra']. Wiki pronoun He/Him, kept Male. https://wiki.leagueoflegends.com/en-us/Universe:Bard
+- **Braum**: Male; ['Human', 'Iceborn']; ['Freljord'].  https://wiki.leagueoflegends.com/en-us/Universe:Braum
+- **Cassiopeia**: Female; ['Human', 'Magically Altered']; ['Noxus', 'Shurima']. CHANGED: regions ['Noxus']->['Noxus', 'Shurima']. Added Shurima (residence Urzeris, cursed in Shurima). https://wiki.leagueoflegends.com/en-us/Universe:Cassiopeia
+- **Diana**: Female; ['Human', 'Aspect']; ['Targon'].  https://wiki.leagueoflegends.com/en-us/Universe:Diana
+- **Elise**: Female; ['Human', 'Magically Altered']; ['Shadow Isles', 'Noxus']. CHANGED: regions ['Shadow Isles']->['Shadow Isles', 'Noxus']. Added Noxus (wiki region lists both). https://wiki.leagueoflegends.com/en-us/Universe:Elise
+- **Fiora**: Female; ['Human']; ['Demacia']. CHANGED: gender None->Female. Gender was null, set Female. https://wiki.leagueoflegends.com/en-us/Universe:Fiora
+- **Garen**: Male; ['Human']; ['Demacia'].  https://wiki.leagueoflegends.com/en-us/Universe:Garen
+- **Gwen**: Female; ['Magically Altered']; ['Shadow Isles']. Wiki: Human/Doll (enchanted doll); no vocab term for doll, used Magically Altered. Camavor not in region list. UNCERTAIN. https://wiki.leagueoflegends.com/en-us/Universe:Gwen
+- **Illaoi**: Female; ['Human']; ['Bilgewater'].  https://wiki.leagueoflegends.com/en-us/Universe:Illaoi
+- **JarvanIV**: Male; ['Human']; ['Demacia'].  https://wiki.leagueoflegends.com/en-us/Universe:Jarvan_IV
+- **Jinx**: Female; ['Human']; ['Zaun'].  https://wiki.leagueoflegends.com/en-us/Universe:Jinx
+- **Karma**: Female; ['Human', 'Spirit']; ['Ionia']. Wiki: Human + Reincarnated Spirit. UNCERTAIN (could be Human/Magicborn). https://wiki.leagueoflegends.com/en-us/Universe:Karma
+- **Kayle**: Female; ['Human', 'Celestial']; ['Demacia', 'Targon']. CHANGED: regions ['Demacia']->['Demacia', 'Targon']. Wiki: Human (Aspect host candidate); commonly half-Celestial. Added Targon (origin Mount Targon). UNCERTAIN. https://wiki.leagueoflegends.com/en-us/Universe:Kayle
+- **Kindred**: Other; ['Spirit', 'God']; ['Runeterra']. CHANGED: gender None->Other. Gender was null, set Other (Lamb she, Wolf he). https://wiki.leagueoflegends.com/en-us/Universe:Kindred
+- **LeeSin**: Male; ['Human']; ['Ionia'].  https://wiki.leagueoflegends.com/en-us/Universe:Lee_Sin
+- **Locke**: Male; ['Human']; ['Demacia']. CHANGED: gender None->Male. Gender was null, set Male (He/Him). Release 2026-06-24, Melee, Mana confirmed. https://wiki.leagueoflegends.com/en-us/Universe:Locke
+- **Malphite**: Male; ['Golem']; ['Ixtal', 'Shurima']. CHANGED: regions ['Ixtal']->['Ixtal', 'Shurima']. Wiki pronoun It/Its (masculine); kept Male. Added Shurima (lives under Shuriman jungle). https://wiki.leagueoflegends.com/en-us/Universe:Malphite
+- **Mel**: Female; ['Human', 'Magicborn']; ['Noxus', 'Piltover']. CHANGED: regions ['Noxus']->['Noxus', 'Piltover']. Added Piltover (wiki lists both). https://wiki.leagueoflegends.com/en-us/Universe:Mel
+- **Mordekaiser**: Male; ['Human', 'Revenant']; ['Noxus'].  https://wiki.leagueoflegends.com/en-us/Universe:Mordekaiser
+- **Nasus**: Male; ['Human', 'God']; ['Shurima']. Wiki: God-Warrior (Ascended) + Human; mapped to God. https://wiki.leagueoflegends.com/en-us/Universe:Nasus
+- **Nilah**: Female; ['Human']; ['Bilgewater']. Wiki: Human bound to joy demon; Kathkan not in region list. Could add Magically Altered/Demon. UNCERTAIN. https://wiki.leagueoflegends.com/en-us/Universe:Nilah
+- **Orianna**: Female; ['Human', 'Golem']; ['Piltover', 'Zaun']. CHANGED: gender None->Female, regions ['Piltover']->['Piltover', 'Zaun']. Gender was null, set Female. Added Zaun (residence). https://wiki.leagueoflegends.com/en-us/Universe:Orianna
+- **Pyke**: Male; ['Human', 'Revenant']; ['Bilgewater'].  https://wiki.leagueoflegends.com/en-us/Universe:Pyke
+- **Rammus**: Male; ['Unknown']; ['Shurima']. Wiki: Unknown (possibly Baccai). https://wiki.leagueoflegends.com/en-us/Universe:Rammus
+- **Renekton**: Male; ['Human', 'God']; ['Shurima']. Wiki: God-Warrior + Human; mapped to God. https://wiki.leagueoflegends.com/en-us/Universe:Renekton
+- **Ryze**: Male; ['Human', 'Magicborn']; ['Runeterra'].  https://wiki.leagueoflegends.com/en-us/Universe:Ryze
+- **Seraphine**: Female; ['Human', 'Magicborn']; ['Piltover', 'Zaun']. CHANGED: regions ['Piltover']->['Piltover', 'Zaun']. Added Zaun (wiki lists both). https://wiki.leagueoflegends.com/en-us/Universe:Seraphine
+- **Shyvana**: Female; ['Human', 'Dragon']; ['Demacia']. Half-dragon; wiki says Terrestrial Dragon. https://wiki.leagueoflegends.com/en-us/Universe:Shyvana
+- **Skarner**: Male; ['Brackern']; ['Ixtal'].  https://wiki.leagueoflegends.com/en-us/Universe:Skarner
+- **Swain**: Male; ['Human', 'Magically Altered']; ['Noxus']. Demon-pact (Raum) powers; Magically Altered is a judgment call. UNCERTAIN. https://wiki.leagueoflegends.com/en-us/Universe:Swain
+- **Taliyah**: Female; ['Human', 'Magicborn']; ['Shurima'].  https://wiki.leagueoflegends.com/en-us/Universe:Taliyah
+- **Thresh**: Male; ['Human', 'Undead']; ['Shadow Isles']. Wiki: Wraith + Human. Blessed Isles not in region list. https://wiki.leagueoflegends.com/en-us/Universe:Thresh
+- **TwistedFate**: Male; ['Human', 'Magicborn']; ['Bilgewater'].  https://wiki.leagueoflegends.com/en-us/Universe:Twisted_Fate
+- **Varus**: Male; ['Darkin', 'Human']; ['Ionia', 'Shurima']. CHANGED: regions ['Ionia']->['Ionia', 'Shurima']. Added Human (Kai/Valmar hosts) and Shurima (Darkin origin). https://wiki.leagueoflegends.com/en-us/Universe:Varus
+- **Vex**: Female; ['Yordle']; ['Shadow Isles', 'Bandle City']. CHANGED: regions ['Shadow Isles']->['Shadow Isles', 'Bandle City']. Added Bandle City (origin). https://wiki.leagueoflegends.com/en-us/Universe:Vex
+- **Vladimir**: Male; ['Human', 'Magicborn']; ['Noxus']. Hemomancer; Camavor/Blessed Isles not in region list. https://wiki.leagueoflegends.com/en-us/Universe:Vladimir
+- **Xerath**: Male; ['Human', 'Magically Altered']; ['Shurima']. Wiki: Baccai (formerly Human), Ascended arcane being; mapped to Human + Magically Altered. UNCERTAIN (could be God). https://wiki.leagueoflegends.com/en-us/Universe:Xerath
+- **Yorick**: Male; ['Human']; ['Shadow Isles'].  https://wiki.leagueoflegends.com/en-us/Universe:Yorick
+- **Zac**: Male; ['Golem', 'Chemically Altered']; ['Zaun']. Wiki: Ooze Golem made of chemtech. https://wiki.leagueoflegends.com/en-us/Universe:Zac
+- **Zilean**: Male; ['Human', 'Magicborn']; ['Runeterra']. Icathian; kept Runeterra. https://wiki.leagueoflegends.com/en-us/Universe:Zilean
+# Verify notes part 4
+
+Source per champion: League of Legends Wiki Universe page infobox. Positions, resource, range and releaseYear: no clear contradictions found, so left unchanged.
+
+- **Akshan**: Male; Human; Shurima - https://wiki.leagueoflegends.com/en-us/Universe:Akshan | CHANGED: gender None->Male
+- **Anivia**: Female; Spirit, God; Freljord - https://wiki.leagueoflegends.com/en-us/Universe:Anivia | note: wiki species 'Spirit God'
+- **AurelionSol**: Male; Celestial, Dragon; Targon, Runeterra - https://wiki.leagueoflegends.com/en-us/Universe:Aurelion_Sol | CHANGED: regions ['Runeterra']->['Targon', 'Runeterra'] | note: added Targon (wiki regions: Runeterra, Targon)
+- **Belveth**: Female; Void-Being; The Void - https://wiki.leagueoflegends.com/en-us/Universe:Bel%27Veth | note: wiki also lists Shurima as region; kept The Void only (uncertain)
+- **Briar**: Female; Golem, Magically Altered; Noxus - https://wiki.leagueoflegends.com/en-us/Universe:Briar | note: wiki species 'Blood Golem'
+- **Chogath**: Other; Void-Being; The Void - https://wiki.leagueoflegends.com/en-us/Universe:Cho%27Gath | CHANGED: gender None->Other | note: UNCERTAIN gender: wiki pronouns It/Its (skins use 'he'; Loldle says Male)
+- **DrMundo**: Male; Human, Chemically Altered; Zaun - https://wiki.leagueoflegends.com/en-us/Universe:Dr._Mundo | note: wiki says Human; Chemically Altered added from lore
+- **Evelynn**: Female; Demon; Runeterra - https://wiki.leagueoflegends.com/en-us/Universe:Evelynn
+- **Fizz**: Male; Yordle; Bilgewater, Bandle City - https://wiki.leagueoflegends.com/en-us/Universe:Fizz | CHANGED: regions ['Runeterra']->['Bilgewater', 'Bandle City'] | note: region changed Runeterra -> Bilgewater (+origin Bandle City)
+- **Gnar**: Male; Yordle; Freljord - https://wiki.leagueoflegends.com/en-us/Universe:Gnar
+- **Hecarim**: Male; Human, Undead; Shadow Isles - https://wiki.leagueoflegends.com/en-us/Universe:Hecarim | note: wiki species 'Wraith, Human, Horse'; origin Camavor (not in region list)
+- **Irelia**: Female; Human, Magicborn; Ionia - https://wiki.leagueoflegends.com/en-us/Universe:Irelia | note: wiki says Human; Magicborn added from lore
+- **Jax**: Male; Unknown; Runeterra, Shurima - https://wiki.leagueoflegends.com/en-us/Universe:Jax | CHANGED: regions ['Runeterra']->['Runeterra', 'Shurima'] | note: wiki species 'Unknown (possibly Sand-Troll)'; origin Icathia, Shurima - added Shurima
+- **KSante**: Male; Human; Shurima - https://wiki.leagueoflegends.com/en-us/Universe:K%27Sante
+- **Karthus**: Male; Human, Undead; Shadow Isles, Noxus - https://wiki.leagueoflegends.com/en-us/Universe:Karthus | CHANGED: regions ['Shadow Isles']->['Shadow Isles', 'Noxus'] | note: added Noxus (origin Noxus Prime)
+- **Kayn**: Male; Human, Darkin; Ionia, Noxus - https://wiki.leagueoflegends.com/en-us/Universe:Kayn | CHANGED: regions ['Ionia']->['Ionia', 'Noxus'] | note: added Human species and Noxus origin
+- **Kled**: Male; Yordle; Noxus - https://wiki.leagueoflegends.com/en-us/Universe:Kled
+- **Leona**: Female; Human, Aspect; Targon - https://wiki.leagueoflegends.com/en-us/Universe:Leona | note: wiki 'Aspect Host (formerly Human)'
+- **Lucian**: Male; Human; Demacia, Runeterra - https://wiki.leagueoflegends.com/en-us/Universe:Lucian | CHANGED: gender None->Male; regions ['Runeterra']->['Demacia', 'Runeterra'] | note: gender was null; added Demacia (origin)
+- **Malzahar**: Male; Human, Magically Altered; The Void, Shurima - https://wiki.leagueoflegends.com/en-us/Universe:Malzahar | CHANGED: regions ['The Void']->['The Void', 'Shurima'] | note: added Shurima (origin Amakra)
+- **Milio**: Male; Human; Ixtal - https://wiki.leagueoflegends.com/en-us/Universe:Milio
+- **Morgana**: Female; Human, Magically Altered; Demacia, Targon - https://wiki.leagueoflegends.com/en-us/Universe:Morgana | CHANGED: regions ['Demacia']->['Demacia', 'Targon'] | note: wiki 'Human (Aspect Host Candidate)', origin Mount Targon - added Targon; Magically Altered is judgment (wings)
+- **Nautilus**: Male; Human, Revenant; Bilgewater - https://wiki.leagueoflegends.com/en-us/Universe:Nautilus
+- **Nocturne**: Other; Demon; Runeterra - https://wiki.leagueoflegends.com/en-us/Universe:Nocturne | CHANGED: gender None->Other | note: gender was null; pronouns It
+- **Ornn**: Male; Spirit, God; Freljord - https://wiki.leagueoflegends.com/en-us/Universe:Ornn
+- **Qiyana**: Female; Human; Ixtal - https://wiki.leagueoflegends.com/en-us/Universe:Qiyana
+- **RekSai**: Female; Void-Being; The Void, Shurima - https://wiki.leagueoflegends.com/en-us/Universe:Rek%27Sai | CHANGED: regions ['The Void']->['The Void', 'Shurima'] | note: added Shurima (residence Sai Kahleek)
+- **Rengar**: Male; Vastaya; Ixtal - https://wiki.leagueoflegends.com/en-us/Universe:Rengar
+- **Samira**: Female; Human; Noxus, Shurima - https://wiki.leagueoflegends.com/en-us/Universe:Samira | CHANGED: regions ['Noxus']->['Noxus', 'Shurima'] | note: added Shurima (origin)
+- **Sett**: Male; Human, Vastaya; Ionia - https://wiki.leagueoflegends.com/en-us/Universe:Sett | note: wiki 'Human (Vastayan Ancestry)'
+- **Singed**: Male; Human, Chemically Altered; Zaun, Piltover - https://wiki.leagueoflegends.com/en-us/Universe:Singed | CHANGED: regions ['Zaun']->['Zaun', 'Piltover'] | note: added Piltover (origin); Chemically Altered is judgment
+- **Smolder**: Male; Dragon; Noxus - https://wiki.leagueoflegends.com/en-us/Universe:Smolder | CHANGED: regions ['Runeterra']->['Noxus'] | note: region changed Runeterra -> Noxus (wiki: Noxus, Camavor)
+- **Sylas**: Male; Human, Magicborn; Demacia - https://wiki.leagueoflegends.com/en-us/Universe:Sylas
+- **Talon**: Male; Human; Noxus - https://wiki.leagueoflegends.com/en-us/Universe:Talon
+- **Tristana**: Female; Yordle; Bandle City - https://wiki.leagueoflegends.com/en-us/Universe:Tristana
+- **Twitch**: Male; Chemically Altered; Zaun - https://wiki.leagueoflegends.com/en-us/Universe:Twitch | note: wiki species 'Plague Rat' - no exact vocab term
+- **Vayne**: Female; Human; Demacia - https://wiki.leagueoflegends.com/en-us/Universe:Vayne
+- **Vi**: Female; Human; Piltover, Zaun - https://wiki.leagueoflegends.com/en-us/Universe:Vi | CHANGED: regions ['Piltover']->['Piltover', 'Zaun'] | note: added Zaun (origin)
+- **Volibear**: Male; Spirit, God; Freljord - https://wiki.leagueoflegends.com/en-us/Universe:Volibear
+- **XinZhao**: Male; Human; Demacia, Ionia - https://wiki.leagueoflegends.com/en-us/Universe:Xin_Zhao | CHANGED: regions ['Demacia']->['Demacia', 'Ionia'] | note: added Ionia (origin)
+- **Yunara**: Female; Human; Ionia - https://wiki.leagueoflegends.com/en-us/Universe:Yunara | CHANGED: gender None->Female | note: gender was null
+- **Zed**: Male; Human; Ionia - https://wiki.leagueoflegends.com/en-us/Universe:Zed
+- **Zoe**: Female; Human, Aspect; Targon - https://wiki.leagueoflegends.com/en-us/Universe:Zoe | note: wiki 'Aspect Host, Human'

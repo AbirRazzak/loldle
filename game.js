@@ -1,0 +1,44 @@
+// Pure game logic: no DOM here, so `node game.test.js` can check it.
+
+export const COLUMNS = [
+  { key: "gender", label: "Gender" },
+  { key: "positions", label: "Position(s)" },
+  { key: "species", label: "Species" },
+  { key: "resource", label: "Resource" },
+  { key: "range", label: "Range" },
+  { key: "regions", label: "Region(s)" },
+  { key: "releaseYear", label: "Release year" },
+];
+
+const asList = (v) => (Array.isArray(v) ? v : [v]);
+
+/** "correct" | "partial" | "wrong", plus "higher"/"lower" hint for the year. */
+export function compareField(key, guess, answer) {
+  if (key === "releaseYear") {
+    if (guess === answer) return { result: "correct" };
+    return { result: "wrong", hint: answer > guess ? "higher" : "lower" };
+  }
+  const g = asList(guess), a = asList(answer);
+  const shared = g.filter((x) => a.includes(x)).length;
+  if (shared === g.length && shared === a.length) return { result: "correct" };
+  return { result: shared ? "partial" : "wrong" };
+}
+
+export function compare(guess, answer) {
+  return COLUMNS.map(({ key }) => ({ key, ...compareField(key, guess[key], answer[key]) }));
+}
+
+/** Local calendar day as a number, so everyone gets a new champion at their midnight. */
+export function dayNumber(date = new Date()) {
+  return Math.floor(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / 86400000);
+}
+
+/** Same champion for everyone on a given day; hashed so days don't walk alphabetically. */
+export function dailyChampion(champions, day = dayNumber()) {
+  // shortcut: adding a champion reshuffles future answers; store a fixed schedule if that matters
+  let h = (day ^ 0x9e3779b9) >>> 0;
+  h = Math.imul(h ^ (h >>> 16), 0x85ebca6b) >>> 0;
+  h = Math.imul(h ^ (h >>> 13), 0xc2b2ae35) >>> 0;
+  h = (h ^ (h >>> 16)) >>> 0;
+  return champions[h % champions.length];
+}

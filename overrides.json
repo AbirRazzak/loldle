@@ -1,0 +1,1669 @@
+{
+  "Aatrox": {
+    "gender": "Male",
+    "species": [
+      "Darkin"
+    ],
+    "regions": [
+      "Runeterra",
+      "Shurima"
+    ]
+  },
+  "Alistar": {
+    "gender": "Male",
+    "species": [
+      "Minotaur"
+    ],
+    "regions": [
+      "Runeterra"
+    ]
+  },
+  "Annie": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Runeterra",
+      "Noxus"
+    ]
+  },
+  "Aurora": {
+    "gender": "Female",
+    "species": [
+      "Vastaya"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "Blitzcrank": {
+    "gender": "Other",
+    "species": [
+      "Golem"
+    ],
+    "regions": [
+      "Zaun"
+    ]
+  },
+  "Caitlyn": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Piltover"
+    ]
+  },
+  "Corki": {
+    "gender": "Male",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Bandle City"
+    ]
+  },
+  "Draven": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Ezreal": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Piltover"
+    ]
+  },
+  "Galio": {
+    "gender": "Male",
+    "species": [
+      "Golem"
+    ],
+    "regions": [
+      "Demacia"
+    ]
+  },
+  "Gragas": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "Heimerdinger": {
+    "gender": "Male",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Piltover",
+      "Bandle City"
+    ]
+  },
+  "Ivern": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "regions": [
+      "Ionia",
+      "Freljord"
+    ]
+  },
+  "Jayce": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Piltover"
+    ]
+  },
+  "Kaisa": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Void-Being"
+    ],
+    "regions": [
+      "The Void",
+      "Shurima"
+    ]
+  },
+  "Kassadin": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Void-Being"
+    ],
+    "regions": [
+      "The Void",
+      "Shurima"
+    ]
+  },
+  "Kennen": {
+    "gender": "Male",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Ionia",
+      "Bandle City"
+    ]
+  },
+  "KogMaw": {
+    "gender": "Male",
+    "species": [
+      "Void-Being"
+    ],
+    "regions": [
+      "The Void"
+    ]
+  },
+  "Lillia": {
+    "gender": "Female",
+    "species": [
+      "Spirit"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Lulu": {
+    "gender": "Female",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Bandle City"
+    ]
+  },
+  "Maokai": {
+    "gender": "Male",
+    "species": [
+      "Spirit"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ]
+  },
+  "MissFortune": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Bilgewater"
+    ]
+  },
+  "Naafiri": {
+    "gender": "Female",
+    "species": [
+      "Darkin"
+    ],
+    "regions": [
+      "Shurima",
+      "Runeterra"
+    ]
+  },
+  "Neeko": {
+    "gender": "Female",
+    "species": [
+      "Vastaya"
+    ],
+    "regions": [
+      "Ixtal"
+    ]
+  },
+  "Nunu": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Yeti"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "Pantheon": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Targon"
+    ]
+  },
+  "Quinn": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Demacia"
+    ]
+  },
+  "Rell": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Riven": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Noxus",
+      "Ionia"
+    ]
+  },
+  "Sejuani": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Iceborn"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "Shaco": {
+    "gender": "Male",
+    "species": [
+      "Unknown"
+    ],
+    "regions": [
+      "Runeterra"
+    ]
+  },
+  "Sion": {
+    "gender": "Male",
+    "species": [
+      "Revenant"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Sona": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Demacia",
+      "Ionia"
+    ]
+  },
+  "Syndra": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Taric": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Aspect"
+    ],
+    "regions": [
+      "Targon",
+      "Demacia"
+    ]
+  },
+  "Trundle": {
+    "gender": "Male",
+    "species": [
+      "Troll"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "Udyr": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Freljord",
+      "Ionia"
+    ]
+  },
+  "Veigar": {
+    "gender": "Male",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Bandle City",
+      "Runeterra"
+    ]
+  },
+  "Viego": {
+    "gender": "Male",
+    "species": [
+      "Undead"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ]
+  },
+  "Warwick": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Chemically Altered"
+    ],
+    "regions": [
+      "Zaun"
+    ]
+  },
+  "Yasuo": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Yuumi": {
+    "gender": "Female",
+    "species": [
+      "Cat",
+      "Magically Altered"
+    ],
+    "regions": [
+      "Bandle City"
+    ]
+  },
+  "Zeri": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Zaun"
+    ]
+  },
+  "Zyra": {
+    "gender": "Female",
+    "species": [
+      "Unknown"
+    ],
+    "regions": [
+      "Ixtal"
+    ]
+  },
+  "Ahri": {
+    "gender": "Female",
+    "species": [
+      "Vastaya"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Ambessa": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Aphelios": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Targon"
+    ]
+  },
+  "Azir": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Ascended"
+    ],
+    "regions": [
+      "Shurima"
+    ]
+  },
+  "Brand": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "regions": [
+      "Runeterra",
+      "Freljord"
+    ]
+  },
+  "Camille": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Cyborg"
+    ],
+    "regions": [
+      "Piltover"
+    ]
+  },
+  "Darius": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Ekko": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Zaun"
+    ]
+  },
+  "Fiddlesticks": {
+    "gender": "Other",
+    "species": [
+      "Demon"
+    ],
+    "regions": [
+      "Runeterra"
+    ]
+  },
+  "Gangplank": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Bilgewater"
+    ]
+  },
+  "Graves": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Bilgewater"
+    ]
+  },
+  "Hwei": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Janna": {
+    "gender": "Female",
+    "species": [
+      "Spirit"
+    ],
+    "regions": [
+      "Zaun"
+    ]
+  },
+  "Jhin": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Kalista": {
+    "gender": "Female",
+    "species": [
+      "Undead"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ]
+  },
+  "Katarina": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Khazix": {
+    "gender": "Male",
+    "species": [
+      "Void-Being"
+    ],
+    "regions": [
+      "The Void"
+    ]
+  },
+  "Leblanc": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Lissandra": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Iceborn"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "Lux": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Demacia"
+    ]
+  },
+  "MasterYi": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "MonkeyKing": {
+    "gender": "Male",
+    "species": [
+      "Vastaya"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Nami": {
+    "gender": "Female",
+    "species": [
+      "Vastaya"
+    ],
+    "regions": [
+      "Runeterra"
+    ]
+  },
+  "Nidalee": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Ixtal"
+    ]
+  },
+  "Olaf": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "Poppy": {
+    "gender": "Female",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Demacia",
+      "Bandle City"
+    ]
+  },
+  "Rakan": {
+    "gender": "Male",
+    "species": [
+      "Vastaya"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Renata": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Cyborg"
+    ],
+    "regions": [
+      "Zaun"
+    ]
+  },
+  "Rumble": {
+    "gender": "Male",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Bandle City"
+    ]
+  },
+  "Senna": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "regions": [
+      "Runeterra"
+    ]
+  },
+  "Shen": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Sivir": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Shurima"
+    ]
+  },
+  "Soraka": {
+    "gender": "Female",
+    "species": [
+      "Celestial"
+    ],
+    "regions": [
+      "Targon"
+    ]
+  },
+  "TahmKench": {
+    "gender": "Male",
+    "species": [
+      "Demon"
+    ],
+    "regions": [
+      "Runeterra"
+    ]
+  },
+  "Teemo": {
+    "gender": "Male",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Bandle City"
+    ]
+  },
+  "Tryndamere": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "Urgot": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Cyborg"
+    ],
+    "regions": [
+      "Zaun",
+      "Noxus"
+    ]
+  },
+  "Velkoz": {
+    "gender": "Male",
+    "species": [
+      "Void-Being"
+    ],
+    "regions": [
+      "The Void"
+    ]
+  },
+  "Viktor": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Cyborg"
+    ],
+    "regions": [
+      "Zaun"
+    ]
+  },
+  "Xayah": {
+    "gender": "Female",
+    "species": [
+      "Vastaya"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Yone": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Spirit"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Zaahen": {
+    "gender": "Male",
+    "species": [
+      "Darkin"
+    ],
+    "regions": [
+      "Runeterra",
+      "Shurima"
+    ]
+  },
+  "Ziggs": {
+    "gender": "Male",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Zaun",
+      "Bandle City"
+    ]
+  },
+  "Akali": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Amumu": {
+    "gender": "Male",
+    "species": [
+      "Yordle",
+      "Undead"
+    ],
+    "regions": [
+      "Shurima"
+    ]
+  },
+  "Ashe": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Iceborn"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "Bard": {
+    "gender": "Male",
+    "species": [
+      "Celestial"
+    ],
+    "regions": [
+      "Runeterra"
+    ]
+  },
+  "Braum": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Iceborn"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "Cassiopeia": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "regions": [
+      "Noxus",
+      "Shurima"
+    ]
+  },
+  "Diana": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Aspect"
+    ],
+    "regions": [
+      "Targon"
+    ]
+  },
+  "Elise": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "regions": [
+      "Shadow Isles",
+      "Noxus"
+    ]
+  },
+  "Fiora": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Demacia"
+    ]
+  },
+  "Garen": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Demacia"
+    ]
+  },
+  "Gwen": {
+    "gender": "Female",
+    "species": [
+      "Magically Altered"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ]
+  },
+  "Illaoi": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Bilgewater"
+    ]
+  },
+  "JarvanIV": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Demacia"
+    ]
+  },
+  "Jinx": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Zaun"
+    ]
+  },
+  "Karma": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Spirit"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Kayle": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Celestial"
+    ],
+    "regions": [
+      "Demacia",
+      "Targon"
+    ]
+  },
+  "Kindred": {
+    "gender": "Other",
+    "species": [
+      "Spirit",
+      "God"
+    ],
+    "regions": [
+      "Runeterra"
+    ]
+  },
+  "LeeSin": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Locke": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Demacia"
+    ]
+  },
+  "Malphite": {
+    "gender": "Male",
+    "species": [
+      "Golem"
+    ],
+    "regions": [
+      "Ixtal",
+      "Shurima"
+    ]
+  },
+  "Mel": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Noxus",
+      "Piltover"
+    ]
+  },
+  "Mordekaiser": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Revenant"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Nasus": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Ascended"
+    ],
+    "regions": [
+      "Shurima"
+    ]
+  },
+  "Nilah": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Bilgewater"
+    ]
+  },
+  "Orianna": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Golem"
+    ],
+    "regions": [
+      "Piltover",
+      "Zaun"
+    ]
+  },
+  "Pyke": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Revenant"
+    ],
+    "regions": [
+      "Bilgewater"
+    ]
+  },
+  "Rammus": {
+    "gender": "Male",
+    "species": [
+      "Unknown"
+    ],
+    "regions": [
+      "Shurima"
+    ]
+  },
+  "Renekton": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Ascended"
+    ],
+    "regions": [
+      "Shurima"
+    ]
+  },
+  "Ryze": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Runeterra"
+    ]
+  },
+  "Seraphine": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Piltover",
+      "Zaun"
+    ]
+  },
+  "Shyvana": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Dragon"
+    ],
+    "regions": [
+      "Demacia"
+    ]
+  },
+  "Skarner": {
+    "gender": "Male",
+    "species": [
+      "Brackern"
+    ],
+    "regions": [
+      "Ixtal"
+    ]
+  },
+  "Swain": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Taliyah": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Shurima"
+    ]
+  },
+  "Thresh": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Undead"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ]
+  },
+  "TwistedFate": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Bilgewater"
+    ]
+  },
+  "Varus": {
+    "gender": "Male",
+    "species": [
+      "Darkin",
+      "Human"
+    ],
+    "regions": [
+      "Ionia",
+      "Shurima"
+    ]
+  },
+  "Vex": {
+    "gender": "Female",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Shadow Isles",
+      "Bandle City"
+    ]
+  },
+  "Vladimir": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Xerath": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Ascended"
+    ],
+    "regions": [
+      "Shurima"
+    ]
+  },
+  "Yorick": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ]
+  },
+  "Zac": {
+    "gender": "Male",
+    "species": [
+      "Golem",
+      "Chemically Altered"
+    ],
+    "regions": [
+      "Zaun"
+    ]
+  },
+  "Zilean": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Runeterra"
+    ]
+  },
+  "Akshan": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Shurima"
+    ]
+  },
+  "Anivia": {
+    "gender": "Female",
+    "species": [
+      "Spirit",
+      "God"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "AurelionSol": {
+    "gender": "Male",
+    "species": [
+      "Celestial",
+      "Dragon"
+    ],
+    "regions": [
+      "Targon",
+      "Runeterra"
+    ]
+  },
+  "Belveth": {
+    "gender": "Female",
+    "species": [
+      "Void-Being"
+    ],
+    "regions": [
+      "The Void"
+    ]
+  },
+  "Briar": {
+    "gender": "Female",
+    "species": [
+      "Golem",
+      "Magically Altered"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Chogath": {
+    "gender": "Other",
+    "species": [
+      "Void-Being"
+    ],
+    "regions": [
+      "The Void"
+    ]
+  },
+  "DrMundo": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Chemically Altered"
+    ],
+    "regions": [
+      "Zaun"
+    ]
+  },
+  "Evelynn": {
+    "gender": "Female",
+    "species": [
+      "Demon"
+    ],
+    "regions": [
+      "Runeterra"
+    ]
+  },
+  "Fizz": {
+    "gender": "Male",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Bilgewater",
+      "Bandle City"
+    ]
+  },
+  "Gnar": {
+    "gender": "Male",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "Hecarim": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Undead"
+    ],
+    "regions": [
+      "Shadow Isles"
+    ]
+  },
+  "Irelia": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Jax": {
+    "gender": "Male",
+    "species": [
+      "Unknown"
+    ],
+    "regions": [
+      "Runeterra",
+      "Shurima"
+    ]
+  },
+  "KSante": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Shurima"
+    ]
+  },
+  "Karthus": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Undead"
+    ],
+    "regions": [
+      "Shadow Isles",
+      "Noxus"
+    ]
+  },
+  "Kayn": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Darkin"
+    ],
+    "regions": [
+      "Ionia",
+      "Noxus"
+    ]
+  },
+  "Kled": {
+    "gender": "Male",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Leona": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Aspect"
+    ],
+    "regions": [
+      "Targon"
+    ]
+  },
+  "Lucian": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Demacia",
+      "Runeterra"
+    ]
+  },
+  "Malzahar": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "regions": [
+      "The Void",
+      "Shurima"
+    ]
+  },
+  "Milio": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Ixtal"
+    ]
+  },
+  "Morgana": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Magically Altered"
+    ],
+    "regions": [
+      "Demacia",
+      "Targon"
+    ]
+  },
+  "Nautilus": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Revenant"
+    ],
+    "regions": [
+      "Bilgewater"
+    ]
+  },
+  "Nocturne": {
+    "gender": "Other",
+    "species": [
+      "Demon"
+    ],
+    "regions": [
+      "Runeterra"
+    ]
+  },
+  "Ornn": {
+    "gender": "Male",
+    "species": [
+      "Spirit",
+      "God"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "Qiyana": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Ixtal"
+    ]
+  },
+  "RekSai": {
+    "gender": "Female",
+    "species": [
+      "Void-Being"
+    ],
+    "regions": [
+      "The Void",
+      "Shurima"
+    ]
+  },
+  "Rengar": {
+    "gender": "Male",
+    "species": [
+      "Vastaya"
+    ],
+    "regions": [
+      "Ixtal"
+    ]
+  },
+  "Samira": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Noxus",
+      "Shurima"
+    ]
+  },
+  "Sett": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Vastaya"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Singed": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Chemically Altered"
+    ],
+    "regions": [
+      "Zaun",
+      "Piltover"
+    ]
+  },
+  "Smolder": {
+    "gender": "Male",
+    "species": [
+      "Dragon"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Sylas": {
+    "gender": "Male",
+    "species": [
+      "Human",
+      "Magicborn"
+    ],
+    "regions": [
+      "Demacia"
+    ]
+  },
+  "Talon": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Noxus"
+    ]
+  },
+  "Tristana": {
+    "gender": "Female",
+    "species": [
+      "Yordle"
+    ],
+    "regions": [
+      "Bandle City"
+    ]
+  },
+  "Twitch": {
+    "gender": "Male",
+    "species": [
+      "Chemically Altered"
+    ],
+    "regions": [
+      "Zaun"
+    ]
+  },
+  "Vayne": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Demacia"
+    ]
+  },
+  "Vi": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Piltover",
+      "Zaun"
+    ]
+  },
+  "Volibear": {
+    "gender": "Male",
+    "species": [
+      "Spirit",
+      "God"
+    ],
+    "regions": [
+      "Freljord"
+    ]
+  },
+  "XinZhao": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Demacia",
+      "Ionia"
+    ]
+  },
+  "Yunara": {
+    "gender": "Female",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Zed": {
+    "gender": "Male",
+    "species": [
+      "Human"
+    ],
+    "regions": [
+      "Ionia"
+    ]
+  },
+  "Zoe": {
+    "gender": "Female",
+    "species": [
+      "Human",
+      "Aspect"
+    ],
+    "regions": [
+      "Targon"
+    ]
+  }
+}
