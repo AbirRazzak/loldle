@@ -5,15 +5,36 @@ import champions from "./champions.json";
 const $ = (id) => document.getElementById(id);
 
 // Inside Discord the page runs in a sandboxed iframe; outside it (plain browser) we skip the SDK.
+// discordSdk is set only once the player is logged in; Discord's invite/share dialogs require that.
 let discordSdk = null;
 if (new URLSearchParams(location.search).has("frame_id")) {
   // Requests outside the Activity's origin are blocked, so champion images go through the
   // /ddragon URL mapping set in the Developer Portal.
   patchUrlMappings([{ prefix: "/ddragon", target: "ddragon.leagueoflegends.com" }], { patchSrcAttributes: true });
-  discordSdk = new DiscordSDK(import.meta.env.VITE_DISCORD_CLIENT_ID);
-  discordSdk.ready()
-    .then(() => { $("invite").hidden = false; })
-    .catch((err) => console.error("Discord SDK handshake failed", err));
+  loginToDiscord(new DiscordSDK(import.meta.env.VITE_DISCORD_CLIENT_ID))
+    .then((sdk) => { discordSdk = sdk; $("invite").hidden = false; })
+    // The game still works without login; sharing falls back to copy/paste.
+    .catch((err) => console.error("Discord login failed", JSON.stringify(err) || String(err)));
+}
+
+async function loginToDiscord(sdk) {
+  await sdk.ready();
+  const { code } = await sdk.commands.authorize({
+    client_id: import.meta.env.VITE_DISCORD_CLIENT_ID,
+    response_type: "code",
+    state: "",
+    prompt: "none",
+    scope: ["identify"],
+  });
+  const res = await fetch("/api/token", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ code }),
+  });
+  if (!res.ok) throw new Error(`token exchange returned ${res.status}`);
+  const { access_token } = await res.json();
+  await sdk.commands.authenticate({ access_token });
+  return sdk;
 }
 
 $("invite").addEventListener("click", () => {
