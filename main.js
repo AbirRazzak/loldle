@@ -17,7 +17,7 @@ if (new URLSearchParams(location.search).has("frame_id")) {
 }
 
 $("invite").addEventListener("click", () => {
-  discordSdk.commands.openInviteDialog().catch((err) => console.error("Invite dialog failed", err));
+  discordSdk.commands.openInviteDialog().catch((err) => console.error("Invite dialog failed", JSON.stringify(err)));
 });
 
 const guesses = (n) => `${n} ${n === 1 ? "guess" : "guesses"}`;
@@ -89,7 +89,7 @@ $("share").addEventListener("click", async () => {
       $("share").textContent = "Copied!";
     }
   } catch (err) {
-    console.error("Share failed", err);
+    console.error("Share failed", JSON.stringify(err) || String(err));
     getSelection().selectAllChildren($("share-text")); // let the player copy it by hand
     $("share").textContent = "Press Ctrl+C to copy";
   }
