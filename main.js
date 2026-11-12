@@ -12,6 +12,7 @@ if (new URLSearchParams(location.search).has("frame_id")) {
 }
 
 const $ = (id) => document.getElementById(id);
+const guesses = (n) => `${n} ${n === 1 ? "guess" : "guesses"}`;
 const store = {
   // per-viewer progress only; the page works without storage
   get: (k) => { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } },
@@ -61,7 +62,7 @@ function refreshList() {
 
 function finish() {
   const n = saved.guesses.length;
-  $("msg").textContent = `You got ${answer.name} in ${n} ${n === 1 ? "guess" : "guesses"}! New champion tomorrow. Streak: ${store.get("stats")?.streak ?? 1}`;
+  $("msg").textContent = `You got ${answer.name} in ${guesses(n)}! New champion tomorrow. Streak: ${store.get("stats")?.streak ?? 1}`;
   $("msg").className = "win";
   $("guess").disabled = $("submit").disabled = true;
 }
@@ -84,7 +85,7 @@ $("guess-form").addEventListener("submit", (e) => {
   addRow(champ, true);
   refreshList();
   if (champ.id === answer.id) { recordWin(); finish(); }
-  else $("msg").textContent = `${saved.guesses.length} ${saved.guesses.length === 1 ? "guess" : "guesses"} so far.`;
+  else $("msg").textContent = `${guesses(saved.guesses.length)} so far.`;
 });
 
 saved.guesses.map((id) => byId.get(id)).filter(Boolean).forEach((c) => addRow(c, false));
@@ -92,6 +93,6 @@ refreshList();
 if (saved.guesses.includes(answer.id)) finish();
 else {
   $("guess").disabled = $("submit").disabled = false;
-  $("msg").textContent = saved.guesses.length ? `${saved.guesses.length} guesses so far.` : "";
+  $("msg").textContent = saved.guesses.length ? `${guesses(saved.guesses.length)} so far.` : "";
   $("guess").focus();
 }
