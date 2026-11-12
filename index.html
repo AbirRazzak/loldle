@@ -24,6 +24,13 @@
   button:disabled { opacity: .5; cursor: default; }
   #msg { min-height: 1.4em; color: var(--muted); margin: 0 0 16px; }
   #msg.win { color: var(--accent); font-weight: 600; }
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 4px; }
+  .top h1 { margin: 0; }
+  button.secondary { padding: 8px 14px; color: var(--text); background: var(--panel); border: 1px solid var(--border); }
+  #result { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin: 0 0 18px; padding: 14px 16px;
+            background: var(--panel); border: 1px solid var(--border); border-radius: 8px; }
+  #result[hidden] { display: none; }
+  #share-text { margin: 0; font: 1rem/1.35 system-ui, sans-serif; white-space: pre; }
   .board { overflow-x: auto; }
   table { border-collapse: separate; border-spacing: 4px; min-width: 760px; width: 100%; }
   th { font-size: .78rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em;
@@ -45,7 +52,10 @@
 </head>
 <body>
 <main>
-  <h1>Champion <span>Guess</span></h1>
+  <header class="top">
+    <h1>Champion <span>Guess</span></h1>
+    <button id="invite" class="secondary" hidden>Invite friends</button>
+  </header>
   <p class="sub">Guess today's League of Legends champion. Each guess shows how close each trait is.</p>
 
   <form id="guess-form" autocomplete="off">
@@ -54,6 +64,10 @@
     <button id="submit" disabled>Guess</button>
   </form>
   <p id="msg" role="status">Loading champions…</p>
+  <section id="result" hidden>
+    <pre id="share-text"></pre>
+    <button id="share">Share result</button>
+  </section>
 
   <div class="board">
     <table>

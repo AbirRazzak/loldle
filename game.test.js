@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { compareField, dailyChampion, dayNumber } from "./game.js";
+import { compareField, dailyChampion, dayNumber, shareText } from "./game.js";
 
 assert.deepEqual(compareField("gender", "Male", "Male"), { result: "correct" });
 assert.deepEqual(compareField("gender", "Male", "Female"), { result: "wrong" });
@@ -17,5 +17,13 @@ const day = dayNumber(new Date(2026, 10, 11));
 assert.equal(dailyChampion(champs, day), dailyChampion(champs, day));
 const week = new Set(Array.from({ length: 30 }, (_, i) => dailyChampion(champs, day + i).id));
 assert.ok(week.size > 20, "daily picks should vary");
+
+const byId = Object.fromEntries(champs.map((c) => [c.id, c]));
+const launch = dayNumber(new Date(2026, 10, 11));
+assert.equal(
+  shareText([byId.Ahri, byId.Rumble], byId.Rumble, launch),
+  "Champion Guess #1: 2 guesses\n🟥🟨🟥🟥🟥🟥🟩\n🟩🟩🟩🟩🟩🟩🟩",
+);
+assert.match(shareText([byId.Garen], byId.Rumble, launch + 1), /^Champion Guess #2: 1 guess\n.*⬆️$/);
 
 console.log("all tests passed");
