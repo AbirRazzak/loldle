@@ -1,5 +1,5 @@
 import { DiscordSDK, patchUrlMappings } from "@discord/embedded-app-sdk";
-import { COLUMNS, compare, dailyChampion, dayNumber, puzzleNumber, resultRows, shareText } from "./game.js";
+import { COLUMNS, compare, dailyChampion, dayNumber, puzzleNumber, rankBoard, resultRows, shareText } from "./game.js";
 import champions from "./champions.json";
 
 const $ = (id) => document.getElementById(id);
@@ -13,7 +13,12 @@ if (new URLSearchParams(location.search).has("frame_id")) {
   // /ddragon URL mapping set in the Developer Portal.
   patchUrlMappings([{ prefix: "/ddragon", target: "ddragon.leagueoflegends.com" }], { patchSrcAttributes: true });
   loginToDiscord(new DiscordSDK(import.meta.env.VITE_DISCORD_CLIENT_ID))
-    .then((sdk) => { discordSdk = sdk; $("invite").hidden = false; updateCard(); })
+    .then((sdk) => {
+      discordSdk = sdk;
+      $("invite").hidden = false;
+      updateCard();
+      setInterval(() => postForBoard("/api/leaderboard"), 30_000); // pick up other players' results
+    })
     // The game still works without login; sharing falls back to copy/paste.
     .catch((err) => console.error("Discord login failed", JSON.stringify(err) || String(err)));
 }
@@ -39,21 +44,42 @@ async function loginToDiscord(sdk) {
   return sdk;
 }
 
-/** Mirror progress onto the player's live "is playing" card in the channel (best effort). */
+/** Record progress for the channel leaderboard and mirror it onto the live card (best effort). */
 function updateCard() {
   if (!discordSdk || !discordSdk.channelId) return;
   const played = saved.guesses.map((id) => byId.get(id)).filter(Boolean);
-  fetch("/api/progress", {
+  postForBoard("/api/progress", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      access_token: accessToken,
-      channelId: discordSdk.channelId,
-      puzzle: puzzleNumber(today),
-      rows: resultRows(played, answer),
-      solved: saved.guesses.includes(answer.id),
-    }),
-  }).catch((err) => console.error("Card update failed", String(err)));
+    rows: resultRows(played, answer),
+    solved: saved.guesses.includes(answer.id),
+  });
+}
+
+/** POST to a board endpoint as this player in this channel, then redraw the leaderboard from the reply. */
+function postForBoard(path, extra = {}) {
+  fetch(path, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ access_token: accessToken, channelId: discordSdk.channelId, puzzle: puzzleNumber(today), ...extra }),
+  })
+    .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`${path} returned ${r.status}`))))
+    .then(({ board }) => renderBoard(board))
+    .catch((err) => console.error("Leaderboard update failed", String(err)));
+}
+
+function renderBoard(entries) {
+  const list = $("board-list");
+  list.replaceChildren(...rankBoard(entries).map((e) => {
+    const li = document.createElement("li");
+    li.className = e.winner ? "winner" : "";
+    li.innerHTML = '<span class="rank"></span><span class="who"></span><span class="score"></span>';
+    li.querySelector(".rank").textContent = e.rank ?? "–";
+    li.querySelector(".who").textContent = (e.winner ? "🏆 " : "") + e.name; // names are user-controlled: text only
+    li.querySelector(".score").textContent = e.solved ? `${guesses(e.guesses)}` : `playing (${guesses(e.guesses)})`;
+    return li;
+  }));
+  $("board").hidden = entries.length === 0;
 }
 
 $("invite").addEventListener("click", () => {

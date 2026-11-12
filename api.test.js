@@ -33,4 +33,9 @@ assert.equal(card.footer.text, "Solved in 6 guesses!");
 assert.equal(card.description.split("\n").length, 6); // "…" + newest 5
 assert.ok(card.description.endsWith("🟩🟩🟩🟩🟩🟩🟩"));
 assert.equal(cardMessage(user).embeds[0].footer.text, "No guesses yet");
+const { mergeScore } = await import("./api/_board.js");
+assert.deepEqual(mergeScore(null, user, 2, false), { name: "Abir", avatar: null, guesses: 2, solved: false });
+assert.equal(mergeScore({ guesses: 4, solved: true }, user, 2, true), null); // finished games are final
+assert.equal(mergeScore({ guesses: 5, solved: false }, user, 2, true).guesses, 5); // restarting can't lower the count
+
 console.log("api checks passed");

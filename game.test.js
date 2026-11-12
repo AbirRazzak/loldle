@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { compareField, dailyChampion, dayNumber, shareText } from "./game.js";
+import { compareField, dailyChampion, dayNumber, rankBoard, shareText } from "./game.js";
 
 assert.deepEqual(compareField("gender", "Male", "Male"), { result: "correct" });
 assert.deepEqual(compareField("gender", "Male", "Female"), { result: "wrong" });
@@ -25,5 +25,17 @@ assert.equal(
   "Champion Guess #1: 2 guesses\n🟥🟨🟥🟥🟥🟥🟩\n🟩🟩🟩🟩🟩🟩🟩",
 );
 assert.match(shareText([byId.Garen], byId.Rumble, launch + 1), /^Champion Guess #2: 1 guess\n.*⬆️$/);
+
+const board = rankBoard([
+  { id: "a", guesses: 5, solved: true },
+  { id: "b", guesses: 3, solved: true },
+  { id: "c", guesses: 2, solved: false },
+  { id: "d", guesses: 3, solved: true },
+  { id: "e", guesses: 7, solved: true },
+]);
+assert.deepEqual(board.map((e) => [e.id, e.rank, e.winner]), [
+  ["b", 1, true], ["d", 1, true], ["a", 3, false], ["e", 4, false], ["c", null, false],
+]);
+assert.deepEqual(rankBoard([{ id: "x", guesses: 4, solved: false }]).map((e) => e.winner), [false]); // nobody solved: no winner
 
 console.log("all tests passed");

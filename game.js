@@ -58,3 +58,17 @@ export function dailyChampion(champions, day = dayNumber()) {
   h = (h ^ (h >>> 16)) >>> 0;
   return champions[h % champions.length];
 }
+
+/**
+ * Daily channel leaderboard. Solvers rank by fewest guesses (ties share a rank, 1-1-3 style) and
+ * everyone tied for fewest wins; players still going come after, unranked.
+ */
+export function rankBoard(entries) {
+  const solved = entries.filter((e) => e.solved).sort((a, b) => a.guesses - b.guesses);
+  const playing = entries.filter((e) => !e.solved).sort((a, b) => a.guesses - b.guesses);
+  const best = solved[0]?.guesses;
+  return [
+    ...solved.map((e) => ({ ...e, rank: solved.findIndex((s) => s.guesses === e.guesses) + 1, winner: e.guesses === best })),
+    ...playing.map((e) => ({ ...e, rank: null, winner: false })),
+  ];
+}

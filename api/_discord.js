@@ -49,6 +49,15 @@ export function cardMessage(user, { puzzle, rows = [], solved = false } = {}) {
   };
 }
 
+/** The Discord user behind an access token from the Activity's login, or null if it isn't valid. */
+export async function currentUser(accessToken) {
+  if (typeof accessToken !== "string") return null;
+  const res = await discord("/users/@me", { headers: { Authorization: `Bearer ${accessToken}` } });
+  return res.ok ? res.json() : null;
+}
+
+export const isSnowflake = (id) => /^\d{17,20}$/.test(String(id));
+
 export async function discord(path, init = {}) {
   const res = await fetch(API + path, { ...init, headers: { "Content-Type": "application/json", ...init.headers } });
   if (!res.ok) console.error("Discord API", init.method || "GET", path.replace(/\/webhooks\/\d+\/[^/]+/, "/webhooks/…"), res.status, await res.text());

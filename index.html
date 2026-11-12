@@ -31,6 +31,15 @@
             background: var(--panel); border: 1px solid var(--border); border-radius: 8px; }
   #result[hidden] { display: none; }
   #share-text { margin: 0; font: 1rem/1.35 system-ui, sans-serif; white-space: pre; }
+  #board { margin: 0 0 18px; padding: 14px 16px; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; }
+  #board[hidden] { display: none; }
+  #board h2 { margin: 0 0 10px; font-size: 1rem; }
+  #board ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+  #board li { display: flex; align-items: center; gap: 10px; }
+  #board .rank { width: 2ch; text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+  #board .who { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  #board .score { color: var(--muted); }
+  #board li.winner .who { color: var(--accent); font-weight: 600; }
   .board { overflow-x: auto; }
   table { border-collapse: separate; border-spacing: 4px; min-width: 760px; width: 100%; }
   th { font-size: .78rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em;
@@ -75,6 +84,11 @@
       <tbody id="rows"></tbody>
     </table>
   </div>
+
+  <section id="board" hidden aria-live="polite">
+    <h2>Today's channel leaderboard</h2>
+    <ol id="board-list"></ol>
+  </section>
 
   <div class="legend">
     <span><i style="background:var(--correct)"></i>Exact match</span>
